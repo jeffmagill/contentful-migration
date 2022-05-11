@@ -2,8 +2,7 @@
   "name": "Upsell Notice",
   "description": "",
   "displayField": "title",
-  "fields": [
-    {
+  "fields": [{
       "id": "title",
       "name": "Title",
       "type": "Symbol",
@@ -30,8 +29,7 @@
       "type": "RichText",
       "localized": false,
       "required": true,
-      "validations": [
-        {
+      "validations": [{
           "enabledMarks": [
             "bold",
             "italic",
@@ -81,8 +79,6 @@
     },
     "id": "upsellNotice",
     "type": "ContentType",
-    "createdAt": "2020-09-25T16:04:06.551Z",
-    "updatedAt": "2020-09-25T19:43:53.895Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -91,8 +87,6 @@
       }
     },
     "publishedVersion": 13,
-    "publishedAt": "2020-09-25T19:43:53.895Z",
-    "firstPublishedAt": "2020-09-25T16:04:06.870Z",
     "createdBy": {
       "sys": {
         "type": "Link",

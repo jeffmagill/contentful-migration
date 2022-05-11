@@ -2,32 +2,27 @@
   "name": "PDP > You Might Also Like",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "productCards",
       "name": "Product Cards",
       "type": "Array",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "size": {
-            "min": 1,
-            "max": 3
-          }
+      "validations": [{
+        "size": {
+          "min": 1,
+          "max": 3
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "productCard"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "productCard"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -52,8 +47,6 @@
     },
     "id": "pdpYouMightAlsoLike",
     "type": "ContentType",
-    "createdAt": "2020-09-17T15:19:46.579Z",
-    "updatedAt": "2020-09-17T15:52:02.177Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -62,8 +55,6 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2020-09-17T15:52:02.177Z",
-    "firstPublishedAt": "2020-09-17T15:19:46.817Z",
     "createdBy": {
       "sys": {
         "type": "Link",

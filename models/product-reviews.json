@@ -2,8 +2,7 @@
   "name": "Product Reviews",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -34,8 +33,6 @@
     },
     "id": "productReviews",
     "type": "ContentType",
-    "createdAt": "2021-02-12T14:36:31.588Z",
-    "updatedAt": "2021-02-17T22:03:31.372Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -44,8 +41,6 @@
       }
     },
     "publishedVersion": 61,
-    "publishedAt": "2021-02-17T22:03:31.372Z",
-    "firstPublishedAt": "2021-02-12T14:36:32.231Z",
     "createdBy": {
       "sys": {
         "type": "Link",

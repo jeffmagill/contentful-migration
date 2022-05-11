@@ -2,8 +2,7 @@
   "name": "Product Landing Page",
   "description": "",
   "displayField": "seoTitle",
-  "fields": [
-    {
+  "fields": [{
       "id": "variant",
       "name": "Variant",
       "type": "Symbol",
@@ -19,11 +18,9 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -79,13 +76,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "plpProductSection"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "plpProductSection"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -105,13 +100,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "flashMessage"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "flashMessage"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -122,13 +115,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "hero"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "hero"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -139,13 +130,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "banner"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "banner"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -156,13 +145,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "hero"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "hero"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -173,13 +160,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "banner"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "banner"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -195,8 +180,6 @@
     },
     "id": "productLandingPage",
     "type": "ContentType",
-    "createdAt": "2020-08-20T14:56:43.532Z",
-    "updatedAt": "2022-02-11T15:44:23.245Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -205,8 +188,6 @@
       }
     },
     "publishedVersion": 71,
-    "publishedAt": "2022-02-11T15:44:23.245Z",
-    "firstPublishedAt": "2020-08-20T14:56:43.839Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -2,8 +2,7 @@
   "name": "Blog Page Template",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,8 +18,7 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
+      "validations": [{
           "unique": true
         },
         {
@@ -45,19 +43,17 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "banner",
-              "beat",
-              "categoryHeader",
-              "flashMessage",
-              "hero",
-              "padding",
-              "richTextBlock"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "banner",
+            "beat",
+            "categoryHeader",
+            "flashMessage",
+            "hero",
+            "padding",
+            "richTextBlock"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -72,19 +68,17 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "banner",
-              "beat",
-              "carousel",
-              "faq",
-              "hero",
-              "padding",
-              "richTextBlock"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "banner",
+            "beat",
+            "carousel",
+            "faq",
+            "hero",
+            "padding",
+            "richTextBlock"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -130,8 +124,6 @@
     },
     "id": "blogPageTemplate",
     "type": "ContentType",
-    "createdAt": "2020-03-26T01:36:02.115Z",
-    "updatedAt": "2020-04-18T12:28:54.784Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -140,8 +132,6 @@
       }
     },
     "publishedVersion": 15,
-    "publishedAt": "2020-04-18T12:28:54.784Z",
-    "firstPublishedAt": "2020-03-26T01:36:02.318Z",
     "createdBy": {
       "sys": {
         "type": "Link",

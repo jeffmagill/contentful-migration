@@ -2,8 +2,7 @@
   "name": "URL Link",
   "description": "A link that opens a URL.",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -29,14 +28,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ],
-          "message": "Images only!"
-        }
-      ],
+      "validations": [{
+        "linkMimetypeGroup": [
+          "image"
+        ],
+        "message": "Images only!"
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
@@ -92,8 +89,6 @@
     },
     "id": "urlLink",
     "type": "ContentType",
-    "createdAt": "2020-03-20T16:57:20.284Z",
-    "updatedAt": "2020-03-26T17:31:33.014Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -102,8 +97,6 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2020-03-26T17:31:33.014Z",
-    "firstPublishedAt": "2020-03-20T16:57:29.739Z",
     "createdBy": {
       "sys": {
         "type": "Link",

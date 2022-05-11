@@ -2,8 +2,7 @@
   "name": "Social Media Links",
   "description": "Put the social media links for the blog post",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -44,8 +43,6 @@
     },
     "id": "socialMediaLinks",
     "type": "ContentType",
-    "createdAt": "2020-03-23T22:47:30.158Z",
-    "updatedAt": "2020-03-23T22:47:30.369Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -54,8 +51,6 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-03-23T22:47:30.369Z",
-    "firstPublishedAt": "2020-03-23T22:47:30.369Z",
     "createdBy": {
       "sys": {
         "type": "Link",

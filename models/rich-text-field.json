@@ -2,8 +2,7 @@
   "name": "Rich Text Block",
   "description": "Block of text that can embed images and other content entries",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,36 +18,31 @@
       "type": "RichText",
       "localized": false,
       "required": true,
-      "validations": [
-        {
+      "validations": [{
           "nodes": {
-            "embedded-entry-block": [
-              {
-                "linkContentType": [
-                  "banner",
-                  "beat",
-                  "carousel",
-                  "categoryHeader",
-                  "faq",
-                  "fiveStarReviewCount",
-                  "hero",
-                  "iconListItem",
-                  "modalLink",
-                  "padding",
-                  "richTextBlock",
-                  "socialMediaLinks",
-                  "urlLink"
-                ]
-              }
-            ],
-            "embedded-entry-inline": [
-              {
-                "linkContentType": [
-                  "modalLink",
-                  "urlLink"
-                ]
-              }
-            ]
+            "embedded-entry-block": [{
+              "linkContentType": [
+                "banner",
+                "beat",
+                "carousel",
+                "categoryHeader",
+                "faq",
+                "fiveStarReviewCount",
+                "hero",
+                "iconListItem",
+                "modalLink",
+                "padding",
+                "richTextBlock",
+                "socialMediaLinks",
+                "urlLink"
+              ]
+            }],
+            "embedded-entry-inline": [{
+              "linkContentType": [
+                "modalLink",
+                "urlLink"
+              ]
+            }]
           }
         },
         {
@@ -80,15 +74,13 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "left",
-            "center",
-            "right"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "left",
+          "center",
+          "right"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     }
@@ -103,8 +95,6 @@
     },
     "id": "richTextBlock",
     "type": "ContentType",
-    "createdAt": "2020-03-20T16:57:20.297Z",
-    "updatedAt": "2020-04-07T12:09:02.665Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -113,8 +103,6 @@
       }
     },
     "publishedVersion": 25,
-    "publishedAt": "2020-04-07T12:09:02.665Z",
-    "firstPublishedAt": "2020-03-20T16:57:28.637Z",
     "createdBy": {
       "sys": {
         "type": "Link",

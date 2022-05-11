@@ -2,8 +2,7 @@
   "name": "ProductCategory",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "id",
       "name": "id",
       "type": "Symbol",
@@ -106,8 +105,6 @@
     },
     "id": "productCategory",
     "type": "ContentType",
-    "createdAt": "2020-06-12T22:33:38.613Z",
-    "updatedAt": "2021-03-01T16:31:45.621Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -116,8 +113,6 @@
       }
     },
     "publishedVersion": 75,
-    "publishedAt": "2021-03-01T16:31:45.621Z",
-    "firstPublishedAt": "2020-06-12T22:33:38.907Z",
     "createdBy": {
       "sys": {
         "type": "Link",

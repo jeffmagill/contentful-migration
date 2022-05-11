@@ -2,8 +2,7 @@
   "name": "Social Image",
   "description": "Looks like an instagram post, right now in a review carousel.",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -66,8 +65,6 @@
     },
     "id": "socialImage",
     "type": "ContentType",
-    "createdAt": "2020-03-20T16:57:21.634Z",
-    "updatedAt": "2020-03-20T16:57:27.124Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -76,8 +73,6 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-03-20T16:57:27.124Z",
-    "firstPublishedAt": "2020-03-20T16:57:27.124Z",
     "createdBy": {
       "sys": {
         "type": "Link",

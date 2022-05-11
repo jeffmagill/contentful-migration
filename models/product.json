@@ -2,8 +2,7 @@
   "name": "Product",
   "description": "",
   "displayField": "displayName",
-  "fields": [
-    {
+  "fields": [{
       "id": "uuid",
       "name": "ID",
       "type": "Symbol",
@@ -40,13 +39,11 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkContentType": [
-            "productCategory"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "productCategory"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -62,8 +59,6 @@
     },
     "id": "product",
     "type": "ContentType",
-    "createdAt": "2020-06-12T22:40:08.702Z",
-    "updatedAt": "2020-11-03T20:35:07.829Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -72,8 +67,6 @@
       }
     },
     "publishedVersion": 43,
-    "publishedAt": "2020-11-03T20:35:07.829Z",
-    "firstPublishedAt": "2020-06-12T22:40:08.908Z",
     "createdBy": {
       "sys": {
         "type": "Link",

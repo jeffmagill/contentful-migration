@@ -2,8 +2,7 @@
   "name": "PDP > Buy Module",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -59,15 +58,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Refill In 3 Months",
-            "Refill Now",
-            "One Time Purchase"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Refill In 3 Months",
+          "Refill Now",
+          "One Time Purchase"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -77,13 +74,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "product"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "product"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -99,13 +94,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "product"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "product"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -120,13 +113,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "product"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "product"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -156,13 +147,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "productCategory"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "productCategory"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -188,13 +177,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "refillOption"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "refillOption"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -229,8 +216,6 @@
     },
     "id": "pdpBuyModule",
     "type": "ContentType",
-    "createdAt": "2020-08-28T19:36:35.487Z",
-    "updatedAt": "2022-01-07T19:32:44.504Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -239,8 +224,6 @@
       }
     },
     "publishedVersion": 59,
-    "publishedAt": "2022-01-07T19:32:44.504Z",
-    "firstPublishedAt": "2020-08-28T19:36:35.901Z",
     "createdBy": {
       "sys": {
         "type": "Link",
