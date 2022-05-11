@@ -2,8 +2,7 @@
   "name": "Variation Container",
   "description": null,
   "displayField": "experimentTitle",
-  "fields": [
-    {
+  "fields": [{
       "id": "experimentTitle",
       "name": "Experiment title",
       "type": "Symbol",
@@ -69,8 +68,6 @@
     },
     "id": "variationContainer",
     "type": "ContentType",
-    "createdAt": "2021-12-16T17:13:38.981Z",
-    "updatedAt": "2021-12-16T17:13:39.647Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -79,8 +76,6 @@
       }
     },
     "publishedVersion": 2,
-    "publishedAt": "2021-12-16T17:13:39.647Z",
-    "firstPublishedAt": "2021-12-16T17:13:39.647Z",
     "createdBy": {
       "sys": {
         "type": "Link",

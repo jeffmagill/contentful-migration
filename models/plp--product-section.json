@@ -2,8 +2,7 @@
   "name": "PLP > Product Section",
   "description": "",
   "displayField": "headline",
-  "fields": [
-    {
+  "fields": [{
       "id": "headline",
       "name": "Headline",
       "type": "Symbol",
@@ -34,13 +33,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "productCard"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "productCard"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -60,13 +57,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "promotionalCarousel"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "promotionalCarousel"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -82,8 +77,6 @@
     },
     "id": "plpProductSection",
     "type": "ContentType",
-    "createdAt": "2020-08-20T15:00:05.151Z",
-    "updatedAt": "2020-10-20T16:19:07.844Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -92,8 +85,6 @@
       }
     },
     "publishedVersion": 3,
-    "publishedAt": "2020-10-20T16:19:07.844Z",
-    "firstPublishedAt": "2020-08-20T15:00:05.593Z",
     "createdBy": {
       "sys": {
         "type": "Link",

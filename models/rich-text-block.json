@@ -2,8 +2,7 @@
   "name": "Rich Text Block",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,29 +18,23 @@
       "type": "RichText",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "nodes": {
-            "embedded-entry-block": [
-              {
-                "linkContentType": [
-                  "banner",
-                  "beat",
-                  "iconListItem"
-                ]
-              }
-            ],
-            "embedded-entry-inline": [
-              {
-                "linkContentType": [
-                  "modalLink",
-                  "urlLink"
-                ]
-              }
+      "validations": [{
+        "nodes": {
+          "embedded-entry-block": [{
+            "linkContentType": [
+              "banner",
+              "beat",
+              "iconListItem"
             ]
-          }
+          }],
+          "embedded-entry-inline": [{
+            "linkContentType": [
+              "modalLink",
+              "urlLink"
+            ]
+          }]
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -51,15 +44,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "left",
-            "center",
-            "right"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "left",
+          "center",
+          "right"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     }
@@ -74,8 +65,6 @@
     },
     "id": "richTextBlock",
     "type": "ContentType",
-    "createdAt": "2020-08-03T09:55:36.965Z",
-    "updatedAt": "2020-08-03T09:55:37.158Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -84,8 +73,6 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-08-03T09:55:37.158Z",
-    "firstPublishedAt": "2020-08-03T09:55:37.158Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -2,8 +2,7 @@
   "name": "FAQ",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -29,13 +28,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -51,13 +48,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "faqQuestionAnswer"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "faqQuestionAnswer"
+          ]
+        }],
         "linkType": "Entry"
       }
     }
@@ -72,8 +67,6 @@
     },
     "id": "faq",
     "type": "ContentType",
-    "createdAt": "2020-07-30T19:11:54.423Z",
-    "updatedAt": "2020-07-30T19:33:06.793Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -82,8 +75,6 @@
       }
     },
     "publishedVersion": 13,
-    "publishedAt": "2020-07-30T19:33:06.793Z",
-    "firstPublishedAt": "2020-07-30T19:11:54.767Z",
     "createdBy": {
       "sys": {
         "type": "Link",

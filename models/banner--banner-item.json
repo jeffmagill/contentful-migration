@@ -1,132 +1,125 @@
 {
-    "name": "Banner > Banner Item",
-    "description": "",
-    "displayField": "internalName",
-    "fields": [
-      {
-        "id": "internalName",
-        "name": "Internal Name",
-        "type": "Symbol",
-        "localized": false,
-        "required": true,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "headline",
-        "name": "Headline",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "bodyCopy",
-        "name": "Body Copy",
-        "type": "Text",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "image",
-        "name": "Image",
+  "name": "Banner > Banner Item",
+  "description": "",
+  "displayField": "internalName",
+  "fields": [{
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "headline",
+      "name": "Headline",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "bodyCopy",
+      "name": "Body Copy",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "image",
+      "name": "Image",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "cta",
+      "name": "CTA",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "resizeOnMobile",
+      "name": "Resize On Mobile",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "inlineCta",
+      "name": "Inline CTA",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
         "type": "Link",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false,
-        "linkType": "Asset"
-      },
-      {
-        "id": "cta",
-        "name": "CTA",
-        "type": "Link",
-        "localized": false,
-        "required": false,
-        "validations": [
-          {
-            "linkContentType": [
-              "modalLink",
-              "urlLink"
-            ]
-          }
-        ],
-        "disabled": false,
-        "omitted": false,
-        "linkType": "Entry"
-      },
-      {
-        "id": "resizeOnMobile",
-        "name": "Resize On Mobile",
-        "type": "Boolean",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "inlineCta",
-        "name": "Inline CTA",
-        "type": "Boolean",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
       }
-    ],
-    "sys": {
-      "space": {
-        "sys": {
-          "type": "Link",
-          "linkType": "Space",
-          "id": "2tdscsybkbx7"
-        }
-      },
-      "id": "bannerItem",
-      "type": "ContentType",
-      "createdAt": "2020-07-30T20:35:05.291Z",
-      "updatedAt": "2020-07-30T20:35:05.601Z",
-      "environment": {
-        "sys": {
-          "id": "master",
-          "type": "Link",
-          "linkType": "Environment"
-        }
-      },
-      "publishedVersion": 1,
-      "publishedAt": "2020-07-30T20:35:05.601Z",
-      "firstPublishedAt": "2020-07-30T20:35:05.601Z",
-      "createdBy": {
-        "sys": {
-          "type": "Link",
-          "linkType": "User",
-          "id": "5gl2DitIryitMQdPpAabRn"
-        }
-      },
-      "updatedBy": {
-        "sys": {
-          "type": "Link",
-          "linkType": "User",
-          "id": "5gl2DitIryitMQdPpAabRn"
-        }
-      },
-      "publishedCounter": 1,
-      "version": 2,
-      "publishedBy": {
-        "sys": {
-          "type": "Link",
-          "linkType": "User",
-          "id": "5gl2DitIryitMQdPpAabRn"
-        }
+    },
+    "id": "bannerItem",
+    "type": "ContentType",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     }
   }
+}

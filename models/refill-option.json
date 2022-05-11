@@ -2,8 +2,7 @@
   "name": "Refill Option",
   "description": "",
   "displayField": "name",
-  "fields": [
-    {
+  "fields": [{
       "id": "name",
       "name": "Name",
       "type": "Symbol",
@@ -64,8 +63,6 @@
     },
     "id": "refillOption",
     "type": "ContentType",
-    "createdAt": "2020-11-05T16:31:19.691Z",
-    "updatedAt": "2020-11-06T14:47:59.639Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -74,8 +71,6 @@
       }
     },
     "publishedVersion": 3,
-    "publishedAt": "2020-11-06T14:47:59.639Z",
-    "firstPublishedAt": "2020-11-05T16:31:20.039Z",
     "createdBy": {
       "sys": {
         "type": "Link",

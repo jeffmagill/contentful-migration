@@ -2,8 +2,7 @@
   "name": "Icon List Item",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -40,14 +39,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -63,8 +60,6 @@
     },
     "id": "iconListItem",
     "type": "ContentType",
-    "createdAt": "2020-07-29T21:25:27.588Z",
-    "updatedAt": "2020-07-29T21:46:15.426Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -73,8 +68,6 @@
       }
     },
     "publishedVersion": 3,
-    "publishedAt": "2020-07-29T21:46:15.426Z",
-    "firstPublishedAt": "2020-07-29T21:25:27.809Z",
     "createdBy": {
       "sys": {
         "type": "Link",
