@@ -238,47 +238,5 @@
       "omitted": false,
       "linkType": "Entry"
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "2tdscsybkbx7"
-      }
-    },
-    "id": "productDisplayPage",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 223,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    },
-    "publishedCounter": 112,
-    "version": 224,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    }
-  }
+  ]
 }

@@ -117,47 +117,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "carousel",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 37,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    },
-    "publishedCounter": 19,
-    "version": 38,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    }
-  }
+  ]
 }

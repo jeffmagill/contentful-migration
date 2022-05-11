@@ -22,47 +22,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "productReviews",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 23,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
-      }
-    },
-    "publishedCounter": 12,
-    "version": 24,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
-      }
-    }
-  }
+  ]
 }

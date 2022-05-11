@@ -29,47 +29,5 @@
       "omitted": false,
       "linkType": "Entry"
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "configuration",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 1,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
-      }
-    },
-    "publishedCounter": 1,
-    "version": 2,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
-      }
-    }
-  }
+  ]
 }
