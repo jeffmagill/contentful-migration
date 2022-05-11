@@ -1,0 +1,185 @@
+{
+  "name": "Flash Message",
+  "description": "Nano bar",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "dismissable",
+      "name": "Dismissable",
+      "type": "Boolean",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "text",
+      "name": "Text",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "tooltip",
+      "name": "Tooltip",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "linkContentType": [
+            "modalLink",
+            "urlLink"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "theme",
+      "name": "Theme",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "success",
+            "error",
+            "custom"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "customThemeBackgroundColors",
+      "name": "Custom Theme Background Colors",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": [
+          {
+            "regexp": {
+              "pattern": "^#[A-Fa-f0-9]{6}$",
+              "flags": null
+            },
+            "message": "Enter colors in hex color format #RRGGBB where R, G, and B are 0-9 or A-F"
+          }
+        ]
+      }
+    },
+    {
+      "id": "customThemeGradientDegree",
+      "name": "Custom Theme Gradient Degree",
+      "type": "Integer",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "range": {
+            "min": 1,
+            "max": 360
+          }
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "textColor",
+      "name": "Text Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "linkColor",
+      "name": "Link Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "dark",
+            "light"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "flashMessage",
+    "type": "ContentType",
+    "createdAt": "2020-02-26T17:02:23.473Z",
+    "updatedAt": "2022-02-22T17:46:39.122Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 59,
+    "publishedAt": "2022-02-22T17:46:39.122Z",
+    "firstPublishedAt": "2020-02-26T17:02:23.899Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5RBgFr4BxbgJK5zRIzJ94c"
+      }
+    },
+    "publishedCounter": 30,
+    "version": 60,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5RBgFr4BxbgJK5zRIzJ94c"
+      }
+    }
+  }
+}

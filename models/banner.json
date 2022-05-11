@@ -1,218 +1,241 @@
 {
-    "name": "Banner",
-    "description": "",
-    "displayField": "internalName",
-    "fields": [
-      {
-        "id": "internalName",
-        "name": "Internal Name",
-        "type": "Symbol",
-        "localized": false,
-        "required": true,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "imagePosition",
-        "name": "Image Position",
-        "type": "Symbol",
-        "localized": false,
-        "required": true,
-        "validations": [
-          {
-            "in": [
-              "left",
-              "right",
-              "top",
-              "bottom"
-            ]
-          }
-        ],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "backgroundColor",
-        "name": "Background Color",
-        "type": "Symbol",
-        "localized": false,
-        "required": true,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "bodyCopySize",
-        "name": "Body Copy Size",
-        "type": "Symbol",
-        "localized": false,
-        "required": true,
-        "validations": [
-          {
-            "in": [
-              "xsmall",
-              "small",
-              "medium",
-              "large"
-            ]
-          }
-        ],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "textColor",
-        "name": "Text Color",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "expand",
-        "name": "Expand",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [
-          {
-            "in": [
-              "relativeToImagePosition",
-              "vertically",
-              "default"
-            ]
-          }
-        ],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "copyWidth",
-        "name": "Copy Width",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [
-          {
-            "in": [
-              "default",
-              "narrow",
-              "wide"
-            ]
-          }
-        ],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "topBorderColor",
-        "name": "Top Border Color",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "bottomBorderColor",
-        "name": "Bottom Border Color",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "tout",
-        "name": "tout",
-        "type": "Boolean",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "headline",
-        "name": "Headline",
-        "type": "Symbol",
-        "localized": false,
-        "required": false,
-        "validations": [],
-        "disabled": false,
-        "omitted": false
-      },
-      {
-        "id": "items",
-        "name": "Items",
-        "type": "Array",
-        "localized": false,
-        "required": true,
-        "validations": [],
-        "disabled": false,
-        "omitted": false,
-        "items": {
-          "type": "Link",
-          "validations": [
-            {
-              "linkContentType": [
-                "bannerItem"
-              ]
-            }
-          ],
-          "linkType": "Entry"
+  "name": "Banner",
+  "description": "",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "imagePosition",
+      "name": "Image Position",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "right",
+            "top",
+            "bottom"
+          ]
         }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "headline",
+      "name": "Headline",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "items",
+      "name": "Items",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "bannerItem",
+              "fiveStarReviewCount"
+            ],
+            "message": "Only Allow Banner Item or Five Star Review Count"
+          }
+        ],
+        "linkType": "Entry"
       }
-    ],
-    "sys": {
-      "space": {
-        "sys": {
-          "type": "Link",
-          "linkType": "Space",
-          "id": "2tdscsybkbx7"
+    },
+    {
+      "id": "hasBadges",
+      "name": "Banner Item has Numbered Badge",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "badgeColor",
+      "name": "Badge Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "bodyCopySize",
+      "name": "Body Copy Size",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "xsmall",
+            "small",
+            "medium",
+            "large"
+          ]
         }
-      },
-      "id": "banner",
-      "type": "ContentType",
-      "createdAt": "2020-07-30T20:07:27.925Z",
-      "updatedAt": "2021-11-01T15:02:05.346Z",
-      "environment": {
-        "sys": {
-          "id": "master",
-          "type": "Link",
-          "linkType": "Environment"
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "textColor",
+      "name": "Text Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "expand",
+      "name": "Expand",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "relativeToImagePosition",
+            "vertically",
+            "default"
+          ],
+          "message": "can only be either \"relativeToImagePosition\" or \"vertically\""
         }
-      },
-      "publishedVersion": 11,
-      "publishedAt": "2021-11-01T15:02:05.346Z",
-      "firstPublishedAt": "2020-07-30T20:07:28.226Z",
-      "createdBy": {
-        "sys": {
-          "type": "Link",
-          "linkType": "User",
-          "id": "5gl2DitIryitMQdPpAabRn"
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "copyWidth",
+      "name": "Copy Width",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "default",
+            "narrow",
+            "wide"
+          ]
         }
-      },
-      "updatedBy": {
-        "sys": {
-          "type": "Link",
-          "linkType": "User",
-          "id": "1Y9ELhGU5t9OztZurf0EGf"
-        }
-      },
-      "publishedCounter": 6,
-      "version": 12,
-      "publishedBy": {
-        "sys": {
-          "type": "Link",
-          "linkType": "User",
-          "id": "1Y9ELhGU5t9OztZurf0EGf"
-        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "topBorderColor",
+      "name": "Top Border Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "bottomBorderColor",
+      "name": "Bottom Border Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "tout",
+      "name": "tout",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "banner",
+    "type": "ContentType",
+    "createdAt": "2020-02-24T17:15:46.706Z",
+    "updatedAt": "2021-03-19T20:36:47.910Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 45,
+    "publishedAt": "2021-03-19T20:36:47.910Z",
+    "firstPublishedAt": "2020-02-24T17:15:46.982Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 23,
+    "version": 46,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     }
   }
+}

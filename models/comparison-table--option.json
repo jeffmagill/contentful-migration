@@ -1,11 +1,11 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
-  "displayField": "internalName",
+  "name": "Comparison Table > Option",
+  "description": "",
+  "displayField": "title",
   "fields": [
     {
-      "id": "internalName",
-      "name": "Internal Name",
+      "id": "title",
+      "name": "Title",
       "type": "Symbol",
       "localized": false,
       "required": true,
@@ -14,60 +14,61 @@
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
+      "id": "valuePerRow",
+      "name": "Value per row",
+      "type": "Array",
       "localized": false,
       "required": true,
       "validations": [],
       "disabled": false,
-      "omitted": false
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": [
+          {
+            "in": [
+              "$",
+              "$$",
+              "$$$",
+              "$$$$",
+              "CHECKMARK",
+              "BLANK",
+              "Rarely"
+            ],
+            "message": "We only allow certain values, if you want other values, please see tech."
+          }
+        ]
+      }
     },
     {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
+      "id": "isHighlighted",
+      "name": "Is Highlighted",
       "type": "Boolean",
       "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "highlightTextColor",
+      "name": "Highlight Text Color",
+      "type": "Symbol",
+      "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "image",
-      "name": "Image",
-      "type": "Link",
-      "localized": false,
-      "required": true,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ]
-        }
-      ],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
+      "id": "highlightBackgroundColor",
+      "name": "Highlight Background Color",
+      "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ],
-          "message": "Only URL Link or Modal Link is accepted."
-        }
-      ],
+      "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ],
   "sys": {
@@ -78,10 +79,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "iconListItem",
+    "id": "comparisonTableOption",
     "type": "ContentType",
-    "createdAt": "2020-02-20T19:59:23.882Z",
-    "updatedAt": "2021-03-19T18:07:44.527Z",
+    "createdAt": "2021-04-23T18:47:07.398Z",
+    "updatedAt": "2021-05-06T20:08:18.326Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -90,8 +91,8 @@
       }
     },
     "publishedVersion": 17,
-    "publishedAt": "2021-03-19T18:07:44.527Z",
-    "firstPublishedAt": "2020-02-20T19:59:24.178Z",
+    "publishedAt": "2021-05-06T20:08:18.326Z",
+    "firstPublishedAt": "2021-04-23T18:47:07.672Z",
     "createdBy": {
       "sys": {
         "type": "Link",

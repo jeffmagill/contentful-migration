@@ -8,38 +8,25 @@
       "name": "Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [],
+      "required": true,
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "storePlp",
-      "name": "Store PLP",
+      "id": "navBar",
+      "name": "Nav Bar",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [
         {
           "linkContentType": [
-            "productLandingPage"
-          ]
-        }
-      ],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
-    },
-    {
-      "id": "refillsPdp",
-      "name": "Refills PDP",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "productDisplayPage"
+            "navBarLinks"
           ]
         }
       ],
@@ -53,13 +40,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "configuration",
     "type": "ContentType",
-    "createdAt": "2020-10-08T18:17:52.401Z",
-    "updatedAt": "2020-12-16T21:27:12.418Z",
+    "createdAt": "2021-09-22T16:25:45.428Z",
+    "updatedAt": "2021-09-22T16:25:45.804Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -67,30 +54,30 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 7,
-    "publishedAt": "2020-12-16T21:27:12.418Z",
-    "firstPublishedAt": "2020-10-08T18:17:53.083Z",
+    "publishedVersion": 1,
+    "publishedAt": "2021-09-22T16:25:45.804Z",
+    "firstPublishedAt": "2021-09-22T16:25:45.804Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
       }
     },
     "updatedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
       }
     },
-    "publishedCounter": 4,
-    "version": 8,
+    "publishedCounter": 1,
+    "version": 2,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
       }
     }
   }

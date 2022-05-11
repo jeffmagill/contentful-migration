@@ -22,7 +22,8 @@
       "validations": [
         {
           "in": [
-            "Email Capture"
+            "Email Capture",
+            "SMS Capture"
           ]
         }
       ],
@@ -45,6 +46,25 @@
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
+    },
+    {
+      "id": "emailListName",
+      "name": "Email List Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "Popup Signups",
+            "Cusp Popup Signups",
+            "SMS Popup Signup List",
+            "Viasat Signups"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
     }
   ],
   "sys": {
@@ -52,13 +72,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "form",
     "type": "ContentType",
-    "createdAt": "2021-04-01T13:20:01.554Z",
-    "updatedAt": "2021-04-01T13:20:01.787Z",
+    "createdAt": "2021-04-01T13:54:02.956Z",
+    "updatedAt": "2022-04-20T16:34:40.551Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -66,9 +86,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 1,
-    "publishedAt": "2021-04-01T13:20:01.787Z",
-    "firstPublishedAt": "2021-04-01T13:20:01.787Z",
+    "publishedVersion": 17,
+    "publishedAt": "2022-04-20T16:34:40.551Z",
+    "firstPublishedAt": "2021-04-01T13:54:03.177Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -80,16 +100,16 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+        "id": "4vtFl8ZFgl9073stzaC0zi"
       }
     },
-    "publishedCounter": 1,
-    "version": 2,
+    "publishedCounter": 9,
+    "version": 18,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+        "id": "4vtFl8ZFgl9073stzaC0zi"
       }
     }
   }

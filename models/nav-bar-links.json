@@ -1,0 +1,220 @@
+{
+  "name": "Nav Bar Links",
+  "description": "Links being shown in the nav bar",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "links",
+      "name": "Links",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "navBarLink"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "logo",
+      "name": "Logo",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "isStoreCartButton",
+      "name": "CTA Link Is A Store -> Cart Button",
+      "type": "Boolean",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "ctaName",
+      "name": "CTA Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "size": {
+            "min": 3,
+            "max": 20
+          },
+          "message": "3-20 Characters"
+        }
+      ],
+      "defaultValue": {
+        "en-US": "3-20 Characters"
+      },
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "ctaLink",
+      "name": "CTA Link",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "ctaColor",
+      "name": "CTA Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "newNav",
+      "name": "New Nav",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "showHelp",
+      "name": "Show Help Menu",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "Desktop",
+            "Never"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "Desktop"
+      },
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "showAccount",
+      "name": "Show Account Menu",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "Always",
+            "Desktop",
+            "Mobile",
+            "Never"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "Always"
+      },
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "showCart",
+      "name": "Show Shopping Cart",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "Always",
+            "Desktop",
+            "Mobile",
+            "Never"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "Always"
+      },
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "navBarLinks",
+    "type": "ContentType",
+    "createdAt": "2021-03-16T14:28:17.540Z",
+    "updatedAt": "2021-11-22T23:11:07.371Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 23,
+    "publishedAt": "2021-11-22T23:11:07.371Z",
+    "firstPublishedAt": "2021-03-16T14:28:18.047Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 12,
+    "version": 24,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
+}

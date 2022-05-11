@@ -1,6 +1,6 @@
 {
   "name": "Product Reviews",
-  "description": "",
+  "description": "Component to display all of our product reviews by category",
   "displayField": "internalName",
   "fields": [
     {
@@ -29,13 +29,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "productReviews",
     "type": "ContentType",
-    "createdAt": "2021-02-12T14:36:31.588Z",
-    "updatedAt": "2021-02-17T22:03:31.372Z",
+    "createdAt": "2021-02-12T14:32:14.834Z",
+    "updatedAt": "2021-02-17T20:39:59.076Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -43,9 +43,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 61,
-    "publishedAt": "2021-02-17T22:03:31.372Z",
-    "firstPublishedAt": "2021-02-12T14:36:32.231Z",
+    "publishedVersion": 23,
+    "publishedAt": "2021-02-17T20:39:59.076Z",
+    "firstPublishedAt": "2021-02-12T14:32:15.104Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -60,8 +60,8 @@
         "id": "7a2LMZbLGqk8NWgqWJjJ5M"
       }
     },
-    "publishedCounter": 31,
-    "version": 62,
+    "publishedCounter": 12,
+    "version": 24,
     "publishedBy": {
       "sys": {
         "type": "Link",

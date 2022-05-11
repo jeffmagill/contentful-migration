@@ -1,6 +1,6 @@
 {
-  "name": "URL Link",
-  "description": "A link that opens a URL.",
+  "name": "Carousel",
+  "description": "",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,76 +14,16 @@
       "omitted": false
     },
     {
-      "id": "name",
-      "name": "Link Text",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "image",
-      "name": "Link Image",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ],
-          "message": "Images only!"
-        }
-      ],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "url",
-      "name": "Target URL",
+      "id": "layout",
+      "name": "Layout",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "passOnUrlParams",
-      "name": "Pass On Url Params",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "label",
-      "name": "Link Title",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "style",
-      "name": "Link Style",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
       "validations": [
         {
           "in": [
-            "text",
-            "primaryButton",
-            "secondaryButton",
-            "disabledButton"
+            "Default",
+            "Product Overflow"
           ]
         }
       ],
@@ -91,9 +31,86 @@
       "omitted": false
     },
     {
-      "id": "disabled",
-      "name": "Disabled",
+      "id": "headline",
+      "name": "Headline",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "items",
+      "name": "Items",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "beat",
+              "navBarLinksCard",
+              "card",
+              "hero",
+              "review",
+              "socialImage",
+              "testimonial"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "ctaText",
+      "name": "CTA Text",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "ctaUrl",
+      "name": "CTA URL",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "controlDotsColor",
+      "name": "Control Dots Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "fullWidth",
+      "name": "fullWidth",
       "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "background color",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
@@ -109,10 +126,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "urlLink",
+    "id": "carousel",
     "type": "ContentType",
-    "createdAt": "2020-02-20T14:22:19.738Z",
-    "updatedAt": "2021-03-19T16:03:17.133Z",
+    "createdAt": "2020-02-25T18:04:52.593Z",
+    "updatedAt": "2022-01-19T19:31:11.764Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -120,9 +137,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 15,
-    "publishedAt": "2021-03-19T16:03:17.133Z",
-    "firstPublishedAt": "2020-02-20T14:22:20.097Z",
+    "publishedVersion": 37,
+    "publishedAt": "2022-01-19T19:31:11.764Z",
+    "firstPublishedAt": "2020-02-25T18:04:52.794Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -134,16 +151,16 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "58SfZ9rKkKjgzDzATCEtMO"
       }
     },
-    "publishedCounter": 8,
-    "version": 16,
+    "publishedCounter": 19,
+    "version": 38,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "58SfZ9rKkKjgzDzATCEtMO"
       }
     }
   }

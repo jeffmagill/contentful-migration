@@ -8,7 +8,7 @@
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -24,6 +24,27 @@
           "unique": true
         }
       ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "audience",
+      "name": "Audience",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "all",
+            "anonymous",
+            "authenticated"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "all"
+      },
       "disabled": false,
       "omitted": false
     },
@@ -72,11 +93,13 @@
         "validations": [
           {
             "linkContentType": [
-              "banner",
               "beat",
               "form",
-              "iconListItem"
-            ]
+              "iconListItem",
+              "modalLink",
+              "richTextBlock"
+            ],
+            "message": "Only types Icon List Item and Beat are valid"
           }
         ],
         "linkType": "Entry"
@@ -162,13 +185,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "modal",
     "type": "ContentType",
-    "createdAt": "2020-07-29T21:44:52.387Z",
-    "updatedAt": "2021-04-19T16:00:19.156Z",
+    "createdAt": "2020-02-25T18:21:22.276Z",
+    "updatedAt": "2022-02-15T15:45:43.738Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -176,9 +199,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 19,
-    "publishedAt": "2021-04-19T16:00:19.156Z",
-    "firstPublishedAt": "2020-07-29T21:44:52.765Z",
+    "publishedVersion": 33,
+    "publishedAt": "2022-02-15T15:45:43.738Z",
+    "firstPublishedAt": "2020-02-25T18:21:22.476Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -190,16 +213,16 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+        "id": "5RBgFr4BxbgJK5zRIzJ94c"
       }
     },
-    "publishedCounter": 10,
-    "version": 20,
+    "publishedCounter": 17,
+    "version": 34,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+        "id": "5RBgFr4BxbgJK5zRIzJ94c"
       }
     }
   }

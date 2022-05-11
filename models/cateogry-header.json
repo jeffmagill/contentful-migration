@@ -1,5 +1,5 @@
 {
-  "name": "FAQ",
+  "name": "Category Header",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -9,23 +9,17 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "headline",
-      "name": "Headline",
-      "type": "Symbol",
-      "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "qAndAs",
-      "name": "Question and Answers",
+      "id": "categoryLinks",
+      "name": "Category Links",
       "type": "Array",
       "localized": false,
       "required": true,
@@ -37,7 +31,7 @@
         "validations": [
           {
             "linkContentType": [
-              "faqQuestionAnswer"
+              "urlLink"
             ]
           }
         ],
@@ -45,21 +39,42 @@
       }
     },
     {
-      "id": "cta",
-      "name": "CTA",
+      "id": "image",
+      "name": "Category Image",
       "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "imageSizePercent",
+      "name": "Header Image Size Percent",
+      "type": "Integer",
       "localized": false,
       "required": false,
       "validations": [
         {
-          "linkContentType": [
-            "urlLink"
-          ]
+          "range": {
+            "min": 1,
+            "max": 100
+          }
         }
       ],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
+    },
+    {
+      "id": "categoryHeaderLink",
+      "name": "Category Header Link",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     }
   ],
   "sys": {
@@ -70,10 +85,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "faq",
+    "id": "categoryHeader",
     "type": "ContentType",
-    "createdAt": "2020-02-19T19:49:41.212Z",
-    "updatedAt": "2020-03-30T15:32:41.813Z",
+    "createdAt": "2021-02-17T15:28:47.475Z",
+    "updatedAt": "2021-02-17T15:29:25.141Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -81,30 +96,30 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 39,
-    "publishedAt": "2020-03-30T15:32:41.813Z",
-    "firstPublishedAt": "2020-02-19T19:49:41.424Z",
+    "publishedVersion": 5,
+    "publishedAt": "2021-02-17T15:29:25.141Z",
+    "firstPublishedAt": "2021-02-17T15:28:48.410Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     },
     "updatedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "54AeWwZDzgFu8MgAiKaTJv"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     },
-    "publishedCounter": 20,
-    "version": 40,
+    "publishedCounter": 3,
+    "version": 6,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "54AeWwZDzgFu8MgAiKaTJv"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     }
   }

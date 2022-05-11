@@ -64,13 +64,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "variationContainer",
     "type": "ContentType",
-    "createdAt": "2021-12-16T17:13:38.981Z",
-    "updatedAt": "2021-12-16T17:13:39.647Z",
+    "createdAt": "2022-01-04T20:31:20.648Z",
+    "updatedAt": "2022-01-04T20:31:21.123Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -79,8 +79,8 @@
       }
     },
     "publishedVersion": 2,
-    "publishedAt": "2021-12-16T17:13:39.647Z",
-    "firstPublishedAt": "2021-12-16T17:13:39.647Z",
+    "publishedAt": "2022-01-04T20:31:21.123Z",
+    "firstPublishedAt": "2022-01-04T20:31:21.123Z",
     "createdBy": {
       "sys": {
         "type": "Link",

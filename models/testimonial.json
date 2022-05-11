@@ -1,5 +1,5 @@
 {
-  "name": "Modal Link",
+  "name": "Testimonial",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,29 +14,29 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
+      "id": "profileName",
+      "name": "Profile Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "linkImage",
-      "name": "Link Image",
+      "id": "profilePicture",
+      "name": "Profile Picture",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
     },
     {
-      "id": "linkTitle",
-      "name": "Link Title",
+      "id": "office",
+      "name": "office",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,21 +45,14 @@
       "omitted": false
     },
     {
-      "id": "modal",
-      "name": "Modal",
-      "type": "Link",
+      "id": "testimonial",
+      "name": "testimonial",
+      "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ],
   "sys": {
@@ -70,10 +63,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "modalLink",
+    "id": "testimonial",
     "type": "ContentType",
-    "createdAt": "2020-02-27T00:44:24.485Z",
-    "updatedAt": "2020-03-24T15:29:20.208Z",
+    "createdAt": "2020-03-30T14:40:19.874Z",
+    "updatedAt": "2020-03-30T14:40:20.075Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -81,30 +74,30 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 7,
-    "publishedAt": "2020-03-24T15:29:20.208Z",
-    "firstPublishedAt": "2020-02-27T00:44:24.821Z",
+    "publishedVersion": 1,
+    "publishedAt": "2020-03-30T14:40:20.075Z",
+    "firstPublishedAt": "2020-03-30T14:40:20.075Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     },
     "updatedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "1Y9ELhGU5t9OztZurf0EGf"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     },
-    "publishedCounter": 4,
-    "version": 8,
+    "publishedCounter": 1,
+    "version": 2,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "1Y9ELhGU5t9OztZurf0EGf"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     }
   }

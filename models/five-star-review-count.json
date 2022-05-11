@@ -1,5 +1,5 @@
 {
-  "name": "Modal Link",
+  "name": "Five Star Review Count",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,52 +14,33 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
+      "id": "text",
+      "name": "Text",
       "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "linkImage",
-      "name": "Link Image",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "linkTitle",
-      "name": "Link Title",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "modal",
-      "name": "Modal",
-      "type": "Link",
       "localized": false,
       "required": true,
       "validations": [
         {
-          "linkContentType": [
-            "modal"
-          ]
+          "regexp": {
+            "pattern": ".*NUMBER.*",
+            "flags": ""
+          },
+          "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
         }
       ],
       "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "image",
+      "name": "Image",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
       "omitted": false,
-      "linkType": "Entry"
+      "linkType": "Asset"
     }
   ],
   "sys": {
@@ -70,10 +51,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "modalLink",
+    "id": "fiveStarReviewCount",
     "type": "ContentType",
-    "createdAt": "2020-02-27T00:44:24.485Z",
-    "updatedAt": "2020-03-24T15:29:20.208Z",
+    "createdAt": "2020-02-26T16:30:12.368Z",
+    "updatedAt": "2020-02-26T18:50:12.299Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -82,20 +63,20 @@
       }
     },
     "publishedVersion": 7,
-    "publishedAt": "2020-03-24T15:29:20.208Z",
-    "firstPublishedAt": "2020-02-27T00:44:24.821Z",
+    "publishedAt": "2020-02-26T18:50:12.299Z",
+    "firstPublishedAt": "2020-02-26T16:30:12.571Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
     "updatedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "1Y9ELhGU5t9OztZurf0EGf"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     },
     "publishedCounter": 4,
@@ -104,7 +85,7 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "1Y9ELhGU5t9OztZurf0EGf"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     }
   }

@@ -1,6 +1,6 @@
 {
-  "name": "Modal Link",
-  "description": "",
+  "name": "Review",
+  "description": "A customer review",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,29 +14,37 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
+      "id": "profileName",
+      "name": "Profile Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [],
+      "required": true,
+      "validations": [
+        {
+          "size": {
+            "min": 0,
+            "max": 12
+          },
+          "message": "Max 12 Characters"
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "linkImage",
-      "name": "Link Image",
+      "id": "profilePicture",
+      "name": "Profile Picture",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
     },
     {
-      "id": "linkTitle",
-      "name": "Link Title",
+      "id": "profileTitle",
+      "name": "Profile Title",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,21 +53,14 @@
       "omitted": false
     },
     {
-      "id": "modal",
-      "name": "Modal",
-      "type": "Link",
+      "id": "reviewText",
+      "name": "Review Text",
+      "type": "Text",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ],
   "sys": {
@@ -70,10 +71,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "modalLink",
+    "id": "review",
     "type": "ContentType",
-    "createdAt": "2020-02-27T00:44:24.485Z",
-    "updatedAt": "2020-03-24T15:29:20.208Z",
+    "createdAt": "2020-02-21T17:46:50.150Z",
+    "updatedAt": "2020-03-24T15:15:49.064Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -81,9 +82,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 7,
-    "publishedAt": "2020-03-24T15:29:20.208Z",
-    "firstPublishedAt": "2020-02-27T00:44:24.821Z",
+    "publishedVersion": 5,
+    "publishedAt": "2020-03-24T15:15:49.064Z",
+    "firstPublishedAt": "2020-02-21T17:46:50.381Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -98,8 +99,8 @@
         "id": "1Y9ELhGU5t9OztZurf0EGf"
       }
     },
-    "publishedCounter": 4,
-    "version": 8,
+    "publishedCounter": 3,
+    "version": 6,
     "publishedBy": {
       "sys": {
         "type": "Link",

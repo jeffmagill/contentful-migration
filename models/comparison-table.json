@@ -1,6 +1,6 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
+  "name": "Comparison Table",
+  "description": "",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,19 +14,9 @@
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
-      "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
-      "type": "Boolean",
+      "id": "header",
+      "name": "Header",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
@@ -34,40 +24,60 @@
       "omitted": false
     },
     {
-      "id": "image",
-      "name": "Image",
+      "id": "rowNames",
+      "name": "Row Names",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": []
+      }
+    },
+    {
+      "id": "comparisons",
+      "name": "Comparisons",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "comparisonTableOption"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "comparisonImage",
+      "name": "Comparison Image",
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
     },
     {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ],
-          "message": "Only URL Link or Modal Link is accepted."
-        }
-      ],
+      "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ],
   "sys": {
@@ -78,10 +88,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "iconListItem",
+    "id": "comparisonTable",
     "type": "ContentType",
-    "createdAt": "2020-02-20T19:59:23.882Z",
-    "updatedAt": "2021-03-19T18:07:44.527Z",
+    "createdAt": "2021-04-23T18:45:23.573Z",
+    "updatedAt": "2021-05-06T20:09:41.626Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -89,9 +99,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 17,
-    "publishedAt": "2021-03-19T18:07:44.527Z",
-    "firstPublishedAt": "2020-02-20T19:59:24.178Z",
+    "publishedVersion": 13,
+    "publishedAt": "2021-05-06T20:09:41.626Z",
+    "firstPublishedAt": "2021-04-23T18:45:23.870Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -106,8 +116,8 @@
         "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 9,
-    "version": 18,
+    "publishedCounter": 7,
+    "version": 14,
     "publishedBy": {
       "sys": {
         "type": "Link",

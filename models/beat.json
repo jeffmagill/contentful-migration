@@ -28,7 +28,7 @@
       "name": "Body Copy",
       "type": "Text",
       "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -49,7 +49,7 @@
       "name": "Image Position",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [
         {
           "in": [
@@ -60,6 +60,29 @@
       ],
       "disabled": false,
       "omitted": false
+    },
+    {
+      "id": "contents",
+      "name": "Icon List Items",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "iconList",
+              "iconListItem"
+            ],
+            "message": "Only Icon List is valid"
+          }
+        ],
+        "linkType": "Entry"
+      }
     },
     {
       "id": "imageWidthPercent",
@@ -128,7 +151,7 @@
     },
     {
       "id": "backgroundColor",
-      "name": "Background Color",
+      "name": "background color",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -138,44 +161,13 @@
     },
     {
       "id": "fullWidth",
-      "name": "Full Width",
+      "name": "full width",
       "type": "Boolean",
       "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "imageBackgroundColor",
-      "name": "Image Background Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "contents",
-      "name": "Icon List Items",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "iconListItem"
-            ]
-          }
-        ],
-        "linkType": "Entry"
-      }
     },
     {
       "id": "cta",
@@ -186,7 +178,6 @@
       "validations": [
         {
           "linkContentType": [
-            "modalLink",
             "urlLink"
           ]
         }
@@ -194,6 +185,26 @@
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
+    },
+    {
+      "id": "imageBackgroundColor",
+      "name": "imageBackgroundColor",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "reverseMobileView",
+      "name": "Reverse Mobile View",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     }
   ],
   "sys": {
@@ -201,13 +212,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "beat",
     "type": "ContentType",
-    "createdAt": "2020-07-29T21:22:10.522Z",
-    "updatedAt": "2020-07-29T21:47:39.928Z",
+    "createdAt": "2020-02-29T12:20:03.612Z",
+    "updatedAt": "2021-03-11T17:01:03.940Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -215,14 +226,14 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 7,
-    "publishedAt": "2020-07-29T21:47:39.928Z",
-    "firstPublishedAt": "2020-07-29T21:22:10.885Z",
+    "publishedVersion": 31,
+    "publishedAt": "2021-03-11T17:01:03.940Z",
+    "firstPublishedAt": "2020-02-29T12:20:03.780Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     },
     "updatedBy": {
@@ -232,8 +243,8 @@
         "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 4,
-    "version": 8,
+    "publishedCounter": 16,
+    "version": 32,
     "publishedBy": {
       "sys": {
         "type": "Link",

@@ -1,6 +1,6 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
+  "name": "Social Image",
+  "description": "Looks like an instagram post, right now in a review carousel.",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,19 +14,37 @@
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
+      "id": "profileName",
+      "name": "Profile Name",
+      "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [
+        {
+          "size": {
+            "min": 0,
+            "max": 12
+          }
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
-      "type": "Boolean",
+      "id": "profilePicture",
+      "name": "Profile Picture",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "profileTitle",
+      "name": "Profile Title",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
@@ -39,35 +57,10 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
-    },
-    {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ],
-          "message": "Only URL Link or Modal Link is accepted."
-        }
-      ],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
     }
   ],
   "sys": {
@@ -78,10 +71,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "iconListItem",
+    "id": "socialImage",
     "type": "ContentType",
-    "createdAt": "2020-02-20T19:59:23.882Z",
-    "updatedAt": "2021-03-19T18:07:44.527Z",
+    "createdAt": "2020-02-24T17:25:57.807Z",
+    "updatedAt": "2020-04-07T19:40:20.187Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -89,9 +82,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 17,
-    "publishedAt": "2021-03-19T18:07:44.527Z",
-    "firstPublishedAt": "2020-02-20T19:59:24.178Z",
+    "publishedVersion": 19,
+    "publishedAt": "2020-04-07T19:40:20.187Z",
+    "firstPublishedAt": "2020-02-24T17:25:58.953Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -103,16 +96,16 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
       }
     },
-    "publishedCounter": 9,
-    "version": 18,
+    "publishedCounter": 10,
+    "version": 20,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
       }
     }
   }

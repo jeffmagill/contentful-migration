@@ -1,8 +1,18 @@
 {
   "name": "Hero",
   "description": "",
-  "displayField": "headline",
+  "displayField": "internalName",
   "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
     {
       "id": "applyUserVariables",
       "name": "Apply User Variables to headline and subheadline?",
@@ -89,6 +99,7 @@
       "validations": [
         {
           "linkContentType": [
+            "modalLink",
             "urlLink"
           ]
         }
@@ -130,14 +141,14 @@
     {
       "id": "mobileHeight",
       "name": "Mobile Height",
-      "type": "Integer",
+      "type": "Number",
       "localized": false,
       "required": false,
       "validations": [
         {
           "range": {
             "min": 0,
-            "max": 120
+            "max": 100
           }
         }
       ],
@@ -183,7 +194,7 @@
     },
     {
       "id": "centeredContent",
-      "name": "centeredContent",
+      "name": "Centered Content",
       "type": "Boolean",
       "localized": false,
       "required": false,
@@ -200,16 +211,6 @@
       "validations": [],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "anchorLink",
-      "name": "anchorLink",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
     }
   ],
   "sys": {
@@ -217,13 +218,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "hero",
     "type": "ContentType",
-    "createdAt": "2020-08-21T14:29:17.564Z",
-    "updatedAt": "2021-06-02T14:29:05.283Z",
+    "createdAt": "2020-02-21T17:53:13.923Z",
+    "updatedAt": "2021-06-02T14:28:39.662Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -231,9 +232,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 17,
-    "publishedAt": "2021-06-02T14:29:05.283Z",
-    "firstPublishedAt": "2020-08-21T14:29:17.916Z",
+    "publishedVersion": 75,
+    "publishedAt": "2021-06-02T14:28:39.662Z",
+    "firstPublishedAt": "2020-02-21T17:53:14.099Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -248,8 +249,8 @@
         "id": "58SfZ9rKkKjgzDzATCEtMO"
       }
     },
-    "publishedCounter": 9,
-    "version": 18,
+    "publishedCounter": 38,
+    "version": 76,
     "publishedBy": {
       "sys": {
         "type": "Link",

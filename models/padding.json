@@ -1,6 +1,6 @@
-{
-  "name": "Modal Link",
-  "description": "",
+
+  "name": "Padding",
+  "description": "Padding between each page section. (Assume em instead of px)",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,52 +14,31 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "linkImage",
-      "name": "Link Image",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "linkTitle",
-      "name": "Link Title",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "modal",
-      "name": "Modal",
-      "type": "Link",
+      "id": "padding",
+      "name": "Padding",
+      "type": "Number",
       "localized": false,
       "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "mobilePadding",
+      "name": "Mobile Padding",
+      "type": "Number",
+      "localized": false,
+      "required": false,
       "validations": [
         {
-          "linkContentType": [
-            "modal"
-          ]
+          "range": {
+            "max": null,
+            "min": 0
+          }
         }
       ],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ],
   "sys": {
@@ -70,10 +49,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "modalLink",
+    "id": "padding",
     "type": "ContentType",
-    "createdAt": "2020-02-27T00:44:24.485Z",
-    "updatedAt": "2020-03-24T15:29:20.208Z",
+    "createdAt": "2020-03-13T18:14:20.425Z",
+    "updatedAt": "2020-03-26T16:15:02.316Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -81,14 +60,14 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 7,
-    "publishedAt": "2020-03-24T15:29:20.208Z",
-    "firstPublishedAt": "2020-02-27T00:44:24.821Z",
+    "publishedVersion": 9,
+    "publishedAt": "2020-03-26T16:15:02.316Z",
+    "firstPublishedAt": "2020-03-13T18:14:20.745Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
     "updatedBy": {
@@ -98,8 +77,8 @@
         "id": "1Y9ELhGU5t9OztZurf0EGf"
       }
     },
-    "publishedCounter": 4,
-    "version": 8,
+    "publishedCounter": 5,
+    "version": 10,
     "publishedBy": {
       "sys": {
         "type": "Link",

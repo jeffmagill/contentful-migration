@@ -1,6 +1,6 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
+  "name": "Payment",
+  "description": "",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,41 +14,25 @@
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
+      "id": "options",
+      "name": "Options",
+      "type": "Array",
       "localized": false,
       "required": true,
       "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "image",
-      "name": "Image",
-      "type": "Link",
-      "localized": false,
-      "required": true,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ]
-        }
-      ],
       "disabled": false,
       "omitted": false,
-      "linkType": "Asset"
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "paymentOption"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
     },
     {
       "id": "cta",
@@ -59,15 +43,33 @@
       "validations": [
         {
           "linkContentType": [
-            "modalLink",
             "urlLink"
-          ],
-          "message": "Only URL Link or Modal Link is accepted."
+          ]
         }
       ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
+    },
+    {
+      "id": "ctaSubtext",
+      "name": "CTA Subtext",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     }
   ],
   "sys": {
@@ -78,10 +80,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "iconListItem",
+    "id": "payment",
     "type": "ContentType",
-    "createdAt": "2020-02-20T19:59:23.882Z",
-    "updatedAt": "2021-03-19T18:07:44.527Z",
+    "createdAt": "2021-04-22T17:53:56.555Z",
+    "updatedAt": "2021-04-22T18:01:43.567Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -89,9 +91,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 17,
-    "publishedAt": "2021-03-19T18:07:44.527Z",
-    "firstPublishedAt": "2020-02-20T19:59:24.178Z",
+    "publishedVersion": 5,
+    "publishedAt": "2021-04-22T18:01:43.567Z",
+    "firstPublishedAt": "2021-04-22T17:53:56.806Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -106,8 +108,8 @@
         "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 9,
-    "version": 18,
+    "publishedCounter": 3,
+    "version": 6,
     "publishedBy": {
       "sys": {
         "type": "Link",

@@ -1,11 +1,32 @@
 {
-  "name": "FAQ > Question & Answer",
+  "name": "Press Section",
   "description": "",
-  "displayField": "internalName",
+  "displayField": "title",
   "fields": [
     {
-      "id": "internalName",
-      "name": "Internal Name",
+      "id": "press",
+      "name": "press",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "press"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "title",
+      "name": "Title",
       "type": "Symbol",
       "localized": false,
       "required": true,
@@ -14,21 +35,11 @@
       "omitted": false
     },
     {
-      "id": "question",
-      "name": "Question",
+      "id": "subtitle",
+      "name": "subtitle",
       "type": "Symbol",
       "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "answer",
-      "name": "Answer",
-      "type": "Text",
-      "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -42,10 +53,10 @@
         "id": "bfhnibpd75ct"
       }
     },
-    "id": "faqQuestionAnswer",
+    "id": "pressSection",
     "type": "ContentType",
-    "createdAt": "2020-02-19T19:48:16.721Z",
-    "updatedAt": "2020-03-24T15:27:42.461Z",
+    "createdAt": "2021-02-10T17:58:08.732Z",
+    "updatedAt": "2021-02-17T19:33:34.224Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -53,30 +64,30 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 21,
-    "publishedAt": "2020-03-24T15:27:42.460Z",
-    "firstPublishedAt": "2020-02-19T19:48:16.950Z",
+    "publishedVersion": 5,
+    "publishedAt": "2021-02-17T19:33:34.224Z",
+    "firstPublishedAt": "2021-02-10T17:58:09.153Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     },
     "updatedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "1Y9ELhGU5t9OztZurf0EGf"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     },
-    "publishedCounter": 11,
-    "version": 22,
+    "publishedCounter": 3,
+    "version": 6,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "1Y9ELhGU5t9OztZurf0EGf"
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
       }
     }
   }

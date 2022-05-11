@@ -1,0 +1,189 @@
+{
+  "name": "Nav Bar Links > Link",
+  "description": "Individual links from the nav bar",
+  "displayField": "name",
+  "fields": [
+    {
+      "id": "name",
+      "name": "Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "size": {
+            "min": 3,
+            "max": 20
+          },
+          "message": "Must be 2-20 Characters"
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "url",
+      "name": "URL",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "secondaryLinks",
+      "name": "Secondary Links",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "navBarLink"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "position",
+      "name": "Position",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "color",
+      "name": "Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "icon",
+      "name": "Icon",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "Tag Tilted",
+            "Gift"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "emphasize",
+      "name": "Emphasize",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "subNav",
+      "name": "Sub Navigation",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "linkContentType": [
+            "navBarLinksSubNav"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "pillText",
+      "name": "Pill Text",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "size": {
+            "max": 10
+          }
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "navBarLink",
+    "type": "ContentType",
+    "createdAt": "2021-03-16T15:02:25.239Z",
+    "updatedAt": "2021-10-29T18:48:44.463Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 39,
+    "publishedAt": "2021-10-29T18:48:44.463Z",
+    "firstPublishedAt": "2021-03-16T15:02:25.738Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 20,
+    "version": 40,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
+}

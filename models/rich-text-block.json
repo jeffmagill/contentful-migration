@@ -1,6 +1,6 @@
 {
   "name": "Rich Text Block",
-  "description": "",
+  "description": "Block of text that can embed images and other content entries",
   "displayField": "internalName",
   "fields": [
     {
@@ -18,7 +18,7 @@
       "name": "Rich Text",
       "type": "RichText",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [
         {
           "nodes": {
@@ -27,7 +27,16 @@
                 "linkContentType": [
                   "banner",
                   "beat",
-                  "iconListItem"
+                  "carousel",
+                  "faq",
+                  "fiveStarReviewCount",
+                  "hero",
+                  "iconListItem",
+                  "modalLink",
+                  "padding",
+                  "richTextBlock",
+                  "testimonial",
+                  "urlLink"
                 ]
               }
             ],
@@ -40,6 +49,25 @@
               }
             ]
           }
+        },
+        {
+          "enabledNodeTypes": [
+            "heading-1",
+            "heading-2",
+            "heading-3",
+            "heading-4",
+            "heading-5",
+            "heading-6",
+            "ordered-list",
+            "unordered-list",
+            "hr",
+            "blockquote",
+            "embedded-entry-block",
+            "embedded-asset-block",
+            "hyperlink",
+            "embedded-entry-inline"
+          ],
+          "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, and inline entry nodes are allowed"
         }
       ],
       "disabled": false,
@@ -50,7 +78,7 @@
       "name": "Alignment",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [
         {
           "in": [
@@ -62,6 +90,16 @@
       ],
       "disabled": false,
       "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     }
   ],
   "sys": {
@@ -69,13 +107,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "bfhnibpd75ct"
       }
     },
     "id": "richTextBlock",
     "type": "ContentType",
-    "createdAt": "2020-08-03T09:55:36.965Z",
-    "updatedAt": "2020-08-03T09:55:37.158Z",
+    "createdAt": "2020-02-21T17:52:55.080Z",
+    "updatedAt": "2021-05-20T19:38:05.012Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -83,14 +121,14 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 1,
-    "publishedAt": "2020-08-03T09:55:37.158Z",
-    "firstPublishedAt": "2020-08-03T09:55:37.158Z",
+    "publishedVersion": 35,
+    "publishedAt": "2021-05-20T19:38:05.012Z",
+    "firstPublishedAt": "2020-02-21T17:52:55.244Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     },
     "updatedBy": {
@@ -100,8 +138,8 @@
         "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 1,
-    "version": 2,
+    "publishedCounter": 18,
+    "version": 36,
     "publishedBy": {
       "sys": {
         "type": "Link",
