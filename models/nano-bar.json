@@ -146,8 +146,6 @@
     },
     "id": "flashMessage",
     "type": "ContentType",
-    "createdAt": "2020-02-26T17:02:23.473Z",
-    "updatedAt": "2022-02-22T17:46:39.122Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -156,8 +154,6 @@
       }
     },
     "publishedVersion": 59,
-    "publishedAt": "2022-02-22T17:46:39.122Z",
-    "firstPublishedAt": "2020-02-26T17:02:23.899Z",
     "createdBy": {
       "sys": {
         "type": "Link",

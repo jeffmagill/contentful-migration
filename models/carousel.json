@@ -128,8 +128,6 @@
     },
     "id": "carousel",
     "type": "ContentType",
-    "createdAt": "2020-02-25T18:04:52.593Z",
-    "updatedAt": "2022-01-19T19:31:11.764Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -138,8 +136,6 @@
       }
     },
     "publishedVersion": 37,
-    "publishedAt": "2022-01-19T19:31:11.764Z",
-    "firstPublishedAt": "2020-02-25T18:04:52.794Z",
     "createdBy": {
       "sys": {
         "type": "Link",

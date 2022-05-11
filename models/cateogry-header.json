@@ -87,8 +87,6 @@
     },
     "id": "categoryHeader",
     "type": "ContentType",
-    "createdAt": "2021-02-17T15:28:47.475Z",
-    "updatedAt": "2021-02-17T15:29:25.141Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -97,8 +95,6 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2021-02-17T15:29:25.141Z",
-    "firstPublishedAt": "2021-02-17T15:28:48.410Z",
     "createdBy": {
       "sys": {
         "type": "Link",

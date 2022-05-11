@@ -55,8 +55,6 @@
     },
     "id": "pressSection",
     "type": "ContentType",
-    "createdAt": "2021-02-10T17:58:08.732Z",
-    "updatedAt": "2021-02-17T19:33:34.224Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -65,8 +63,6 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2021-02-17T19:33:34.224Z",
-    "firstPublishedAt": "2021-02-10T17:58:09.153Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -81,8 +81,6 @@
     },
     "id": "comparisonTableOption",
     "type": "ContentType",
-    "createdAt": "2021-04-23T18:47:07.398Z",
-    "updatedAt": "2021-05-06T20:08:18.326Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -91,8 +89,6 @@
       }
     },
     "publishedVersion": 17,
-    "publishedAt": "2021-05-06T20:08:18.326Z",
-    "firstPublishedAt": "2021-04-23T18:47:07.672Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -2,8 +2,7 @@
   "name": "Form",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,14 +18,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Email Capture",
-            "SMS Capture"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Email Capture",
+          "SMS Capture"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -36,13 +33,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modal"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -53,16 +48,14 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Popup Signups",
-            "Cusp Popup Signups",
-            "SMS Popup Signup List",
-            "Viasat Signups"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Popup Signups",
+          "Cusp Popup Signups",
+          "SMS Popup Signup List",
+          "Viasat Signups"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     }
@@ -77,8 +70,6 @@
     },
     "id": "form",
     "type": "ContentType",
-    "createdAt": "2021-04-01T13:54:02.956Z",
-    "updatedAt": "2022-04-20T16:34:40.551Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -87,8 +78,6 @@
       }
     },
     "publishedVersion": 17,
-    "publishedAt": "2022-04-20T16:34:40.551Z",
-    "firstPublishedAt": "2021-04-01T13:54:03.177Z",
     "createdBy": {
       "sys": {
         "type": "Link",

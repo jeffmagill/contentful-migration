@@ -181,8 +181,6 @@
     },
     "id": "navBarLinks",
     "type": "ContentType",
-    "createdAt": "2021-03-16T14:28:17.540Z",
-    "updatedAt": "2021-11-22T23:11:07.371Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -191,8 +189,6 @@
       }
     },
     "publishedVersion": 23,
-    "publishedAt": "2021-11-22T23:11:07.371Z",
-    "firstPublishedAt": "2021-03-16T14:28:18.047Z",
     "createdBy": {
       "sys": {
         "type": "Link",

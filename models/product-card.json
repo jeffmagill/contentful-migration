@@ -2,8 +2,7 @@
   "name": "PLP > Product Section > Product Card",
   "description": "Sub-content type for PLP Page",
   "displayField": "itemName",
-  "fields": [
-    {
+  "fields": [{
       "id": "itemName",
       "name": "Item Name",
       "type": "Symbol",
@@ -93,13 +92,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "productDisplayPage"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "productDisplayPage"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -110,13 +107,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "product"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "product"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -127,13 +122,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -149,8 +142,6 @@
     },
     "id": "productCard",
     "type": "ContentType",
-    "createdAt": "2020-08-20T14:54:53.342Z",
-    "updatedAt": "2021-11-03T22:53:52.760Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -159,8 +150,6 @@
       }
     },
     "publishedVersion": 19,
-    "publishedAt": "2021-11-03T22:53:52.760Z",
-    "firstPublishedAt": "2020-08-20T14:54:53.777Z",
     "createdBy": {
       "sys": {
         "type": "Link",

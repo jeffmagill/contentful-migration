@@ -150,8 +150,6 @@
     },
     "id": "navBarLink",
     "type": "ContentType",
-    "createdAt": "2021-03-16T15:02:25.239Z",
-    "updatedAt": "2021-10-29T18:48:44.463Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -160,8 +158,6 @@
       }
     },
     "publishedVersion": 39,
-    "publishedAt": "2021-10-29T18:48:44.463Z",
-    "firstPublishedAt": "2021-03-16T15:02:25.738Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -145,8 +145,6 @@
     },
     "id": "navBarLinksSubNav",
     "type": "ContentType",
-    "createdAt": "2021-09-21T16:08:40.493Z",
-    "updatedAt": "2022-01-18T20:29:59.118Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -155,8 +153,6 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2022-01-18T20:29:59.118Z",
-    "firstPublishedAt": "2021-09-21T16:08:40.752Z",
     "createdBy": {
       "sys": {
         "type": "Link",

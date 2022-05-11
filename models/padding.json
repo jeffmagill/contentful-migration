@@ -51,8 +51,6 @@
     },
     "id": "padding",
     "type": "ContentType",
-    "createdAt": "2020-03-13T18:14:20.425Z",
-    "updatedAt": "2020-03-26T16:15:02.316Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -61,8 +59,6 @@
       }
     },
     "publishedVersion": 9,
-    "publishedAt": "2020-03-26T16:15:02.316Z",
-    "firstPublishedAt": "2020-03-13T18:14:20.745Z",
     "createdBy": {
       "sys": {
         "type": "Link",

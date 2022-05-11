@@ -2,8 +2,7 @@
   "name": "FAQ > Question & Answer",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -44,8 +43,6 @@
     },
     "id": "faqQuestionAnswer",
     "type": "ContentType",
-    "createdAt": "2020-02-19T19:48:16.721Z",
-    "updatedAt": "2020-03-24T15:27:42.461Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -54,8 +51,6 @@
       }
     },
     "publishedVersion": 21,
-    "publishedAt": "2020-03-24T15:27:42.460Z",
-    "firstPublishedAt": "2020-02-19T19:48:16.950Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -73,8 +73,6 @@
     },
     "id": "socialImage",
     "type": "ContentType",
-    "createdAt": "2020-02-24T17:25:57.807Z",
-    "updatedAt": "2020-04-07T19:40:20.187Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -83,8 +81,6 @@
       }
     },
     "publishedVersion": 19,
-    "publishedAt": "2020-04-07T19:40:20.187Z",
-    "firstPublishedAt": "2020-02-24T17:25:58.953Z",
     "createdBy": {
       "sys": {
         "type": "Link",

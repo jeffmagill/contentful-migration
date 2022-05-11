@@ -86,8 +86,6 @@
     },
     "id": "card",
     "type": "ContentType",
-    "createdAt": "2022-01-18T20:28:48.575Z",
-    "updatedAt": "2022-01-19T19:29:50.732Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -96,8 +94,6 @@
       }
     },
     "publishedVersion": 7,
-    "publishedAt": "2022-01-19T19:29:50.732Z",
-    "firstPublishedAt": "2022-01-18T20:28:48.911Z",
     "createdBy": {
       "sys": {
         "type": "Link",

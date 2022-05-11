@@ -73,8 +73,6 @@
     },
     "id": "review",
     "type": "ContentType",
-    "createdAt": "2020-02-21T17:46:50.150Z",
-    "updatedAt": "2020-03-24T15:15:49.064Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -83,8 +81,6 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2020-03-24T15:15:49.064Z",
-    "firstPublishedAt": "2020-02-21T17:46:50.381Z",
     "createdBy": {
       "sys": {
         "type": "Link",

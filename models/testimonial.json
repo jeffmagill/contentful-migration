@@ -65,8 +65,6 @@
     },
     "id": "testimonial",
     "type": "ContentType",
-    "createdAt": "2020-03-30T14:40:19.874Z",
-    "updatedAt": "2020-03-30T14:40:20.075Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -75,8 +73,6 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-03-30T14:40:20.075Z",
-    "firstPublishedAt": "2020-03-30T14:40:20.075Z",
     "createdBy": {
       "sys": {
         "type": "Link",

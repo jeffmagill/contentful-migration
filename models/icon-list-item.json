@@ -2,8 +2,7 @@
   "name": "Icon List Item",
   "description": "List item that consists of an icon and some body copy.",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -39,13 +38,11 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkMimetypeGroup": [
-            "image"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkMimetypeGroup": [
+          "image"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
@@ -56,15 +53,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ],
-          "message": "Only URL Link or Modal Link is accepted."
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ],
+        "message": "Only URL Link or Modal Link is accepted."
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -80,8 +75,6 @@
     },
     "id": "iconListItem",
     "type": "ContentType",
-    "createdAt": "2020-02-20T19:59:23.882Z",
-    "updatedAt": "2021-03-19T18:07:44.527Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -90,8 +83,6 @@
       }
     },
     "publishedVersion": 17,
-    "publishedAt": "2021-03-19T18:07:44.527Z",
-    "firstPublishedAt": "2020-02-20T19:59:24.178Z",
     "createdBy": {
       "sys": {
         "type": "Link",

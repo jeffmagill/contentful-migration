@@ -2,8 +2,7 @@
   "name": "Hero",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -79,14 +78,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "regexp": {
-            "pattern": "((left|right|center) (top|bottom|center))|\\d+% \\d+%|\\d+ \\d+",
-            "flags": null
-          }
+      "validations": [{
+        "regexp": {
+          "pattern": "((left|right|center) (top|bottom|center))|\\d+% \\d+%|\\d+ \\d+",
+          "flags": null
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -96,14 +93,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -144,14 +139,12 @@
       "type": "Number",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 0,
-            "max": 100
-          }
+      "validations": [{
+        "range": {
+          "min": 0,
+          "max": 100
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -171,14 +164,12 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 0,
-            "max": 100
-          }
+      "validations": [{
+        "range": {
+          "min": 0,
+          "max": 100
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -223,8 +214,6 @@
     },
     "id": "hero",
     "type": "ContentType",
-    "createdAt": "2020-02-21T17:53:13.923Z",
-    "updatedAt": "2021-06-02T14:28:39.662Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -233,8 +222,6 @@
       }
     },
     "publishedVersion": 75,
-    "publishedAt": "2021-06-02T14:28:39.662Z",
-    "firstPublishedAt": "2020-02-21T17:53:14.099Z",
     "createdBy": {
       "sys": {
         "type": "Link",

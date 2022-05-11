@@ -2,8 +2,7 @@
   "name": "Modal Link",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -50,13 +49,11 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modal"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -72,8 +69,6 @@
     },
     "id": "modalLink",
     "type": "ContentType",
-    "createdAt": "2020-02-27T00:44:24.485Z",
-    "updatedAt": "2020-03-24T15:29:20.208Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -82,8 +77,6 @@
       }
     },
     "publishedVersion": 7,
-    "publishedAt": "2020-03-24T15:29:20.208Z",
-    "firstPublishedAt": "2020-02-27T00:44:24.821Z",
     "createdBy": {
       "sys": {
         "type": "Link",

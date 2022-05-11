@@ -2,8 +2,7 @@
   "name": "Beat",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -50,14 +49,12 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "left",
-            "right"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "left",
+          "right"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -72,15 +69,13 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "iconList",
-              "iconListItem"
-            ],
-            "message": "Only Icon List is valid"
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "iconList",
+            "iconListItem"
+          ],
+          "message": "Only Icon List is valid"
+        }],
         "linkType": "Entry"
       }
     },
@@ -90,14 +85,12 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 1,
-            "max": 100
-          }
+      "validations": [{
+        "range": {
+          "min": 1,
+          "max": 100
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -117,15 +110,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "top",
-            "center",
-            "bottom"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "top",
+          "center",
+          "bottom"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -175,13 +166,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -217,8 +206,6 @@
     },
     "id": "beat",
     "type": "ContentType",
-    "createdAt": "2020-02-29T12:20:03.612Z",
-    "updatedAt": "2021-03-11T17:01:03.940Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -227,8 +214,6 @@
       }
     },
     "publishedVersion": 31,
-    "publishedAt": "2021-03-11T17:01:03.940Z",
-    "firstPublishedAt": "2020-02-29T12:20:03.780Z",
     "createdBy": {
       "sys": {
         "type": "Link",

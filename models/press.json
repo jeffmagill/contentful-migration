@@ -59,8 +59,6 @@
     },
     "id": "press",
     "type": "ContentType",
-    "createdAt": "2021-02-09T16:26:13.955Z",
-    "updatedAt": "2021-02-09T16:26:15.681Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -69,8 +67,6 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2021-02-09T16:26:15.681Z",
-    "firstPublishedAt": "2021-02-09T16:26:15.681Z",
     "createdBy": {
       "sys": {
         "type": "Link",

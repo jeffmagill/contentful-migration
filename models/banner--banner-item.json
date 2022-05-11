@@ -2,8 +2,7 @@
   "name": "Banner > Banner Item",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -50,14 +49,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -93,8 +90,6 @@
     },
     "id": "bannerItem",
     "type": "ContentType",
-    "createdAt": "2020-02-26T18:56:06.308Z",
-    "updatedAt": "2021-03-19T18:26:22.614Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -103,8 +98,6 @@
       }
     },
     "publishedVersion": 29,
-    "publishedAt": "2021-03-19T18:26:22.614Z",
-    "firstPublishedAt": "2020-02-26T18:56:06.576Z",
     "createdBy": {
       "sys": {
         "type": "Link",

@@ -118,8 +118,6 @@
     },
     "id": "paymentOption",
     "type": "ContentType",
-    "createdAt": "2021-04-22T17:12:07.892Z",
-    "updatedAt": "2021-04-22T17:55:05.206Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -128,8 +126,6 @@
       }
     },
     "publishedVersion": 13,
-    "publishedAt": "2021-04-22T17:55:05.206Z",
-    "firstPublishedAt": "2021-04-22T17:12:08.381Z",
     "createdBy": {
       "sys": {
         "type": "Link",
