@@ -1,0 +1,145 @@
+{
+  "name": "ProductCategory",
+  "description": "",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "id",
+      "name": "id",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "learnMoreText",
+      "name": "Learn More Text",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "marketingImage",
+      "name": "Marketing Image",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "lifestyleImage",
+      "name": "Lifestyle Image",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "isAOneTimePurchase",
+      "name": "Is A One Time Purchase",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "shortDescription",
+      "name": "Short Description",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "isAMainCategory",
+      "name": "Is A Main Category",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "isAReviewableCategory",
+      "name": "Is a Reviewable Category",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "productCategory",
+    "type": "ContentType",
+    "createdAt": "2020-06-12T22:33:38.613Z",
+    "updatedAt": "2021-03-01T16:31:45.621Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 75,
+    "publishedAt": "2021-03-01T16:31:45.621Z",
+    "firstPublishedAt": "2020-06-12T22:33:38.907Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    },
+    "publishedCounter": 38,
+    "version": 76,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    }
+  }
+}

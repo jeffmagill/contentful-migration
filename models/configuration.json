@@ -1,0 +1,97 @@
+{
+  "name": "Configuration",
+  "description": "",
+  "displayField": "name",
+  "fields": [
+    {
+      "id": "name",
+      "name": "Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "storePlp",
+      "name": "Store PLP",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "linkContentType": [
+            "productLandingPage"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "refillsPdp",
+      "name": "Refills PDP",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "linkContentType": [
+            "productDisplayPage"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "configuration",
+    "type": "ContentType",
+    "createdAt": "2020-10-08T18:17:52.401Z",
+    "updatedAt": "2020-12-16T21:27:12.418Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 7,
+    "publishedAt": "2020-12-16T21:27:12.418Z",
+    "firstPublishedAt": "2020-10-08T18:17:53.083Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "58SfZ9rKkKjgzDzATCEtMO"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "58SfZ9rKkKjgzDzATCEtMO"
+      }
+    },
+    "publishedCounter": 4,
+    "version": 8,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "58SfZ9rKkKjgzDzATCEtMO"
+      }
+    }
+  }
+}

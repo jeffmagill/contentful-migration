@@ -1,0 +1,124 @@
+{
+  "name": "Refill Wizard > Step",
+  "description": "Step of refill wizard",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "question",
+      "name": "Question",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "alternateQuestion",
+      "name": "Alternate Question",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "helpText",
+      "name": "Help Text",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "answers",
+      "name": "Answers",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "refillWizardAnswer"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "footerText",
+      "name": "Footer Text",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "refillWizardStep",
+    "type": "ContentType",
+    "createdAt": "2020-12-14T17:37:58.963Z",
+    "updatedAt": "2021-02-12T16:14:38.758Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 29,
+    "publishedAt": "2021-02-12T16:14:38.758Z",
+    "firstPublishedAt": "2020-12-14T17:37:59.167Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    },
+    "publishedCounter": 15,
+    "version": 30,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Product Reviews",
+  "description": "",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "defaultProductCategoryUuid",
+      "name": "Default Product Category Uuid",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "productReviews",
+    "type": "ContentType",
+    "createdAt": "2021-02-12T14:36:31.588Z",
+    "updatedAt": "2021-02-17T22:03:31.372Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 61,
+    "publishedAt": "2021-02-17T22:03:31.372Z",
+    "firstPublishedAt": "2021-02-12T14:36:32.231Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    },
+    "publishedCounter": 31,
+    "version": 62,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+      }
+    }
+  }
+}

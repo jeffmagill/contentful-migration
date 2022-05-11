@@ -1,0 +1,101 @@
+{
+  "name": "Product",
+  "description": "",
+  "displayField": "displayName",
+  "fields": [
+    {
+      "id": "uuid",
+      "name": "ID",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "displayName",
+      "name": "Display Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "detailImage",
+      "name": "Detail Image",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "productCategory",
+      "name": "Product Category",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "linkContentType": [
+            "productCategory"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "product",
+    "type": "ContentType",
+    "createdAt": "2020-06-12T22:40:08.702Z",
+    "updatedAt": "2020-11-03T20:35:07.829Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 43,
+    "publishedAt": "2020-11-03T20:35:07.829Z",
+    "firstPublishedAt": "2020-06-12T22:40:08.908Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "publishedCounter": 22,
+    "version": 44,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    }
+  }
+}

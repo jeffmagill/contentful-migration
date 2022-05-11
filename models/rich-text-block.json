@@ -1,0 +1,113 @@
+{
+  "name": "Rich Text Block",
+  "description": "",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "richText",
+      "name": "Rich Text",
+      "type": "RichText",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "nodes": {
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "iconListItem"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "alignment",
+      "name": "Alignment",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "center",
+            "right"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "richTextBlock",
+    "type": "ContentType",
+    "createdAt": "2020-08-03T09:55:36.965Z",
+    "updatedAt": "2020-08-03T09:55:37.158Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "publishedAt": "2020-08-03T09:55:37.158Z",
+    "firstPublishedAt": "2020-08-03T09:55:37.158Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    }
+  }
+}

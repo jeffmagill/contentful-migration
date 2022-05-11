@@ -1,0 +1,120 @@
+{
+  "name": "Upsell Notice",
+  "description": "",
+  "displayField": "title",
+  "fields": [
+    {
+      "id": "title",
+      "name": "Title",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "upsellNoticeImage",
+      "name": "upsellNoticeImage",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "upsellNoticeDescription",
+      "name": "upsellNoticeDescription",
+      "type": "RichText",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "enabledMarks": [
+            "bold",
+            "italic",
+            "underline"
+          ],
+          "message": "Only bold, italic, and underline marks are allowed"
+        },
+        {
+          "enabledNodeTypes": [],
+          "message": "Nodes are not allowed"
+        },
+        {
+          "nodes": {}
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "upsellNoticeLinkText",
+      "name": "Upsell Notice Link Text",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "upsellNoticeLinkUrl",
+      "name": "Upsell Notice Link Url",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "upsellNotice",
+    "type": "ContentType",
+    "createdAt": "2020-09-25T16:04:06.551Z",
+    "updatedAt": "2020-09-25T19:43:53.895Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 13,
+    "publishedAt": "2020-09-25T19:43:53.895Z",
+    "firstPublishedAt": "2020-09-25T16:04:06.870Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "publishedCounter": 7,
+    "version": 14,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    }
+  }
+}
