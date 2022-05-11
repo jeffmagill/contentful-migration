@@ -1,6 +1,6 @@
 {
   "name": "Flash Message",
-  "description": "",
+  "description": "Nano bar",
   "displayField": "internalName",
   "fields": [
     {
@@ -80,15 +80,7 @@
       "omitted": false,
       "items": {
         "type": "Symbol",
-        "validations": [
-          {
-            "regexp": {
-              "pattern": "^#[A-Fa-f0-9]{6}$",
-              "flags": null
-            },
-            "message": "Enter colors in hex color format #RRGGBB where R, G, and B are 0-9 or A-F"
-          }
-        ]
+        "validations": []
       }
     },
     {
@@ -109,28 +101,6 @@
       "omitted": false
     },
     {
-      "id": "customThemeBackgroundImageDesktop",
-      "name": "Custom Theme Background Image Desktop",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "customThemeBackgroundImageMobile",
-      "name": "Custom Theme Background Image Mobile",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
       "id": "textColor",
       "name": "Text Color",
       "type": "Symbol",
@@ -146,13 +116,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "93hwa04aiia6"
       }
     },
     "id": "flashMessage",
     "type": "ContentType",
-    "createdAt": "2020-10-08T22:22:10.354Z",
-    "updatedAt": "2021-02-05T21:53:47.619Z",
+    "createdAt": "2020-03-20T16:57:22.511Z",
+    "updatedAt": "2020-04-01T21:20:40.511Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -161,8 +131,8 @@
       }
     },
     "publishedVersion": 5,
-    "publishedAt": "2021-02-05T21:53:47.619Z",
-    "firstPublishedAt": "2020-10-08T22:22:10.577Z",
+    "publishedAt": "2020-04-01T21:20:40.511Z",
+    "firstPublishedAt": "2020-03-20T16:57:25.313Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -174,7 +144,7 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
     "publishedCounter": 3,
@@ -183,7 +153,7 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "name": "Banner > Banner Item",
+  "name": "Blog Category",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,28 +14,22 @@
       "omitted": false
     },
     {
-      "id": "headline",
-      "name": "Headline",
+      "id": "name",
+      "name": "Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [],
+      "required": true,
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "image",
-      "name": "Image",
+      "id": "heroImage",
+      "name": "Hero Image",
       "type": "Link",
       "localized": false,
       "required": true,
@@ -45,62 +39,70 @@
       "linkType": "Asset"
     },
     {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
+      "id": "slug",
+      "name": "Slug",
+      "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [
         {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
+          "unique": true
+        },
+        {
+          "regexp": {
+            "pattern": "^[a-z0-9_-]+$",
+            "flags": null
+          },
+          "message": "Lowercase letters, numbers, underscores (_), or dashes (-) only"
         }
       ],
       "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "displayOrder",
+      "name": "Display Order",
+      "type": "Integer",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "metaTitle",
+      "name": "Meta Title",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "metaDescription",
+      "name": "Meta Description",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "metaImage",
+      "name": "Meta Image",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
       "omitted": false,
-      "linkType": "Entry"
-    },
-    {
-      "id": "resizeOnMobile",
-      "name": "resizeOnMobile",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "inlineCta",
-      "name": "Inline CTA",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "headlineUrl",
-      "name": "Headline URL",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "headlineColor",
-      "name": "Headline Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
+      "linkType": "Asset"
     }
   ],
   "sys": {
@@ -111,10 +113,10 @@
         "id": "93hwa04aiia6"
       }
     },
-    "id": "bannerItem",
+    "id": "blogCategory",
     "type": "ContentType",
-    "createdAt": "2020-03-20T16:57:22.504Z",
-    "updatedAt": "2020-03-26T18:00:06.236Z",
+    "createdAt": "2020-03-26T01:15:35.402Z",
+    "updatedAt": "2020-04-01T12:11:24.009Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -122,30 +124,30 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 3,
-    "publishedAt": "2020-03-26T18:00:06.236Z",
-    "firstPublishedAt": "2020-03-20T16:57:25.011Z",
+    "publishedVersion": 11,
+    "publishedAt": "2020-04-01T12:11:24.009Z",
+    "firstPublishedAt": "2020-03-26T01:15:35.594Z",
     "createdBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     },
     "updatedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     },
-    "publishedCounter": 2,
-    "version": 4,
+    "publishedCounter": 6,
+    "version": 12,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
+        "id": "4h5KGGxRFbaPSV8TSju8te"
       }
     }
   }

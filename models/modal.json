@@ -8,22 +8,8 @@
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "modalId",
-      "name": "Modal Id",
-      "type": "Symbol",
-      "localized": false,
-      "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
       "disabled": false,
       "omitted": false
     },
@@ -72,11 +58,11 @@
         "validations": [
           {
             "linkContentType": [
-              "banner",
-              "beat",
-              "form",
-              "iconListItem"
-            ]
+              "iconListItem",
+              "modalLink",
+              "richTextBlock"
+            ],
+            "message": "Only types Icon List Item and Beat are valid"
           }
         ],
         "linkType": "Entry"
@@ -91,70 +77,6 @@
       "validations": [],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "layout",
-      "name": "Layout",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "in": [
-            "green",
-            "default"
-          ]
-        }
-      ],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "showCornerCloseButton",
-      "name": "Show Corner Close Button",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "ctaButtonText",
-      "name": "Cta Button Text",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "ctaButtonType",
-      "name": "Cta Button Type",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "in": [
-            "button",
-            "text"
-          ]
-        }
-      ],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "ctaButtonUrl",
-      "name": "Cta Button Url",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
     }
   ],
   "sys": {
@@ -162,13 +84,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "93hwa04aiia6"
       }
     },
     "id": "modal",
     "type": "ContentType",
-    "createdAt": "2020-07-29T21:44:52.387Z",
-    "updatedAt": "2021-04-19T16:00:19.156Z",
+    "createdAt": "2020-03-20T16:57:22.922Z",
+    "updatedAt": "2020-04-09T14:28:47.763Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -176,9 +98,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 19,
-    "publishedAt": "2021-04-19T16:00:19.156Z",
-    "firstPublishedAt": "2020-07-29T21:44:52.765Z",
+    "publishedVersion": 3,
+    "publishedAt": "2020-04-09T14:28:47.763Z",
+    "firstPublishedAt": "2020-03-20T16:57:26.365Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -190,16 +112,16 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
       }
     },
-    "publishedCounter": 10,
-    "version": 20,
+    "publishedCounter": 2,
+    "version": 4,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
       }
     }
   }

@@ -49,7 +49,7 @@
       "name": "Image Position",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [
         {
           "in": [
@@ -60,6 +60,29 @@
       ],
       "disabled": false,
       "omitted": false
+    },
+    {
+      "id": "contents",
+      "name": "Icon List Items",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "iconList",
+              "iconListItem"
+            ],
+            "message": "Only Icon List is valid"
+          }
+        ],
+        "linkType": "Entry"
+      }
     },
     {
       "id": "imageWidthPercent",
@@ -125,75 +148,6 @@
       "validations": [],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "backgroundColor",
-      "name": "Background Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "fullWidth",
-      "name": "Full Width",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "imageBackgroundColor",
-      "name": "Image Background Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "contents",
-      "name": "Icon List Items",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "iconListItem"
-            ]
-          }
-        ],
-        "linkType": "Entry"
-      }
-    },
-    {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
     }
   ],
   "sys": {
@@ -201,13 +155,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "93hwa04aiia6"
       }
     },
     "id": "beat",
     "type": "ContentType",
-    "createdAt": "2020-07-29T21:22:10.522Z",
-    "updatedAt": "2020-07-29T21:47:39.928Z",
+    "createdAt": "2020-03-20T16:57:20.727Z",
+    "updatedAt": "2020-03-20T16:57:24.248Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -215,9 +169,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 7,
-    "publishedAt": "2020-07-29T21:47:39.928Z",
-    "firstPublishedAt": "2020-07-29T21:22:10.885Z",
+    "publishedVersion": 1,
+    "publishedAt": "2020-03-20T16:57:24.248Z",
+    "firstPublishedAt": "2020-03-20T16:57:24.248Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -232,8 +186,8 @@
         "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 4,
-    "version": 8,
+    "publishedCounter": 1,
+    "version": 2,
     "publishedBy": {
       "sys": {
         "type": "Link",

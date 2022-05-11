@@ -39,13 +39,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "93hwa04aiia6"
       }
     },
     "id": "faqQuestionAnswer",
     "type": "ContentType",
-    "createdAt": "2020-07-30T19:10:28.771Z",
-    "updatedAt": "2020-07-30T19:10:29.125Z",
+    "createdAt": "2020-03-20T16:57:20.280Z",
+    "updatedAt": "2020-03-20T16:57:23.272Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -54,8 +54,8 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-07-30T19:10:29.125Z",
-    "firstPublishedAt": "2020-07-30T19:10:29.125Z",
+    "publishedAt": "2020-03-20T16:57:23.272Z",
+    "firstPublishedAt": "2020-03-20T16:57:23.272Z",
     "createdBy": {
       "sys": {
         "type": "Link",

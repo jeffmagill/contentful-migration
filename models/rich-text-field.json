@@ -1,0 +1,142 @@
+{
+  "name": "Rich Text Block",
+  "description": "Block of text that can embed images and other content entries",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "richText",
+      "name": "Rich Text",
+      "type": "RichText",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "nodes": {
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "carousel",
+                  "categoryHeader",
+                  "faq",
+                  "fiveStarReviewCount",
+                  "hero",
+                  "iconListItem",
+                  "modalLink",
+                  "padding",
+                  "richTextBlock",
+                  "socialMediaLinks",
+                  "urlLink"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "enabledNodeTypes": [
+            "heading-1",
+            "heading-2",
+            "heading-3",
+            "heading-4",
+            "heading-5",
+            "heading-6",
+            "ordered-list",
+            "unordered-list",
+            "hr",
+            "blockquote",
+            "embedded-entry-block",
+            "embedded-asset-block",
+            "hyperlink",
+            "embedded-entry-inline"
+          ],
+          "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, and inline entry nodes are allowed"
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "alignment",
+      "name": "Alignment",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "center",
+            "right"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    }
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "93hwa04aiia6"
+      }
+    },
+    "id": "richTextBlock",
+    "type": "ContentType",
+    "createdAt": "2020-03-20T16:57:20.297Z",
+    "updatedAt": "2020-04-07T12:09:02.665Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 25,
+    "publishedAt": "2020-04-07T12:09:02.665Z",
+    "firstPublishedAt": "2020-03-20T16:57:28.637Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    },
+    "publishedCounter": 13,
+    "version": 26,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    }
+  }
+}

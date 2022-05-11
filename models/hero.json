@@ -1,14 +1,14 @@
 {
   "name": "Hero",
   "description": "",
-  "displayField": "headline",
+  "displayField": "internalName",
   "fields": [
     {
-      "id": "applyUserVariables",
-      "name": "Apply User Variables to headline and subheadline?",
-      "type": "Boolean",
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -18,7 +18,7 @@
       "name": "Headline",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -89,6 +89,7 @@
       "validations": [
         {
           "linkContentType": [
+            "modalLink",
             "urlLink"
           ]
         }
@@ -130,14 +131,14 @@
     {
       "id": "mobileHeight",
       "name": "Mobile Height",
-      "type": "Integer",
+      "type": "Number",
       "localized": false,
       "required": false,
       "validations": [
         {
           "range": {
             "min": 0,
-            "max": 120
+            "max": 100
           }
         }
       ],
@@ -156,7 +157,7 @@
     },
     {
       "id": "desktopLeft",
-      "name": "Desktop Percent Content Left",
+      "name": "Desktop Content Left Percent",
       "type": "Integer",
       "localized": false,
       "required": false,
@@ -170,46 +171,6 @@
       ],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "imageWatermark",
-      "name": "imageWatermark",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "centeredContent",
-      "name": "centeredContent",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "textColor",
-      "name": "textColor",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "anchorLink",
-      "name": "anchorLink",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
     }
   ],
   "sys": {
@@ -217,13 +178,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "93hwa04aiia6"
       }
     },
     "id": "hero",
     "type": "ContentType",
-    "createdAt": "2020-08-21T14:29:17.564Z",
-    "updatedAt": "2021-06-02T14:29:05.283Z",
+    "createdAt": "2020-03-20T16:57:22.713Z",
+    "updatedAt": "2020-03-25T18:15:09.153Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -231,9 +192,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 17,
-    "publishedAt": "2021-06-02T14:29:05.283Z",
-    "firstPublishedAt": "2020-08-21T14:29:17.916Z",
+    "publishedVersion": 13,
+    "publishedAt": "2020-03-25T18:15:09.153Z",
+    "firstPublishedAt": "2020-03-20T16:57:28.295Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -245,16 +206,16 @@
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 9,
-    "version": 18,
+    "publishedCounter": 7,
+    "version": 14,
     "publishedBy": {
       "sys": {
         "type": "Link",
         "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
+        "id": "5gl2DitIryitMQdPpAabRn"
       }
     }
   }

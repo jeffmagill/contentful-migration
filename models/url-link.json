@@ -1,6 +1,6 @@
 {
-  "name": "Url Link",
-  "description": "",
+  "name": "URL Link",
+  "description": "A link that opens a URL.",
   "displayField": "internalName",
   "fields": [
     {
@@ -29,7 +29,14 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [],
+      "validations": [
+        {
+          "linkMimetypeGroup": [
+            "image"
+          ],
+          "message": "Images only!"
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
@@ -55,28 +62,19 @@
       "omitted": false
     },
     {
-      "id": "style",
-      "name": "Link Style",
+      "id": "linkColor",
+      "name": "Link Color",
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "text",
-            "primaryButton",
-            "secondaryButton",
-            "disabledButton"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "disabled",
-      "name": "Disabled",
-      "type": "Boolean",
+      "id": "linkWeight",
+      "name": "Link Weight",
+      "type": "Integer",
       "localized": false,
       "required": false,
       "validations": [],
@@ -89,13 +87,13 @@
       "sys": {
         "type": "Link",
         "linkType": "Space",
-        "id": "2tdscsybkbx7"
+        "id": "93hwa04aiia6"
       }
     },
     "id": "urlLink",
     "type": "ContentType",
-    "createdAt": "2020-07-29T21:34:17.522Z",
-    "updatedAt": "2020-07-29T21:34:17.724Z",
+    "createdAt": "2020-03-20T16:57:20.284Z",
+    "updatedAt": "2020-03-26T17:31:33.014Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -103,9 +101,9 @@
         "linkType": "Environment"
       }
     },
-    "publishedVersion": 1,
-    "publishedAt": "2020-07-29T21:34:17.724Z",
-    "firstPublishedAt": "2020-07-29T21:34:17.724Z",
+    "publishedVersion": 5,
+    "publishedAt": "2020-03-26T17:31:33.014Z",
+    "firstPublishedAt": "2020-03-20T16:57:29.739Z",
     "createdBy": {
       "sys": {
         "type": "Link",
@@ -120,8 +118,8 @@
         "id": "5gl2DitIryitMQdPpAabRn"
       }
     },
-    "publishedCounter": 1,
-    "version": 2,
+    "publishedCounter": 3,
+    "version": 6,
     "publishedBy": {
       "sys": {
         "type": "Link",

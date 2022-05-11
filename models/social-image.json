@@ -1,6 +1,6 @@
 {
-  "name": "Modal Link",
-  "description": "",
+  "name": "Social Image",
+  "description": "Looks like an instagram post, right now in a review carousel.",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,29 +14,29 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
+      "id": "profileName",
+      "name": "Profile Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "linkImage",
-      "name": "Link Image",
+      "id": "profilePicture",
+      "name": "Profile Picture",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
     },
     {
-      "id": "linkTitle",
-      "name": "Link Title",
+      "id": "profileTitle",
+      "name": "Profile Title",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,21 +45,15 @@
       "omitted": false
     },
     {
-      "id": "modal",
-      "name": "Modal",
+      "id": "image",
+      "name": "Image",
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
       "omitted": false,
-      "linkType": "Entry"
+      "linkType": "Asset"
     }
   ],
   "sys": {
@@ -70,10 +64,10 @@
         "id": "93hwa04aiia6"
       }
     },
-    "id": "modalLink",
+    "id": "socialImage",
     "type": "ContentType",
-    "createdAt": "2020-03-20T16:57:20.711Z",
-    "updatedAt": "2020-03-20T16:57:24.674Z",
+    "createdAt": "2020-03-20T16:57:21.634Z",
+    "updatedAt": "2020-03-20T16:57:27.124Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -82,8 +76,8 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-03-20T16:57:24.674Z",
-    "firstPublishedAt": "2020-03-20T16:57:24.674Z",
+    "publishedAt": "2020-03-20T16:57:27.124Z",
+    "firstPublishedAt": "2020-03-20T16:57:27.124Z",
     "createdBy": {
       "sys": {
         "type": "Link",

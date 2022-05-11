@@ -1,5 +1,5 @@
 {
-  "name": "Modal Link",
+  "name": "Five Star Review Count",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,52 +14,33 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
+      "id": "text",
+      "name": "Text",
       "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "linkImage",
-      "name": "Link Image",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "linkTitle",
-      "name": "Link Title",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "modal",
-      "name": "Modal",
-      "type": "Link",
       "localized": false,
       "required": true,
       "validations": [
         {
-          "linkContentType": [
-            "modal"
-          ]
+          "regexp": {
+            "pattern": ".*NUMBER.*",
+            "flags": ""
+          },
+          "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
         }
       ],
       "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "image",
+      "name": "Image",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
       "omitted": false,
-      "linkType": "Entry"
+      "linkType": "Asset"
     }
   ],
   "sys": {
@@ -70,10 +51,10 @@
         "id": "93hwa04aiia6"
       }
     },
-    "id": "modalLink",
+    "id": "fiveStarReviewCount",
     "type": "ContentType",
-    "createdAt": "2020-03-20T16:57:20.711Z",
-    "updatedAt": "2020-03-20T16:57:24.674Z",
+    "createdAt": "2020-03-20T16:57:22.695Z",
+    "updatedAt": "2020-03-20T16:57:26.035Z",
     "environment": {
       "sys": {
         "id": "master",
@@ -82,8 +63,8 @@
       }
     },
     "publishedVersion": 1,
-    "publishedAt": "2020-03-20T16:57:24.674Z",
-    "firstPublishedAt": "2020-03-20T16:57:24.674Z",
+    "publishedAt": "2020-03-20T16:57:26.035Z",
+    "firstPublishedAt": "2020-03-20T16:57:26.035Z",
     "createdBy": {
       "sys": {
         "type": "Link",
