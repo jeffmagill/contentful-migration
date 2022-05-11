@@ -113,47 +113,5 @@
       "omitted": false,
       "linkType": "Asset"
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "93hwa04aiia6"
-      }
-    },
-    "id": "blogPageTemplate",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 15,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
-      }
-    },
-    "publishedCounter": 8,
-    "version": 16,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
-      }
-    }
-  }
+  ]
 }

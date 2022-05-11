@@ -292,47 +292,5 @@
         "linkType": "Entry"
       }
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "93hwa04aiia6"
-      }
-    },
-    "id": "blogPost",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 61,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5WaNSIOSzRNf7DhrGhC27E"
-      }
-    },
-    "publishedCounter": 31,
-    "version": 62,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5WaNSIOSzRNf7DhrGhC27E"
-      }
-    }
-  }
+  ]
 }

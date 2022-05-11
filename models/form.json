@@ -41,47 +41,5 @@
       "omitted": false,
       "linkType": "Entry"
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "2tdscsybkbx7"
-      }
-    },
-    "id": "form",
-    "type": "ContentType",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 1,
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
-      }
-    },
-    "publishedCounter": 1,
-    "version": 2,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "7a2LMZbLGqk8NWgqWJjJ5M"
-      }
-    }
-  }
+  ]
 }
