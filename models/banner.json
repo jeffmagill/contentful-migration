@@ -128,8 +128,7 @@
           "relativeToImagePosition",
           "vertically",
           "default"
-        ],
-        "message": "can only be either \"relativeToImagePosition\" or \"vertically\""
+        ]
       }],
       "disabled": false,
       "omitted": false

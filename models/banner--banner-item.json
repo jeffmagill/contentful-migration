@@ -60,8 +60,8 @@
       "linkType": "Entry"
     },
     {
-      "id": "inlineCta",
-      "name": "Inline CTA",
+      "id": "resizeOnMobile",
+      "name": "resizeOnMobile",
       "type": "Boolean",
       "localized": false,
       "required": false,
@@ -70,8 +70,8 @@
       "omitted": false
     },
     {
-      "id": "resizeOnMobile",
-      "name": "resizeOnMobile",
+      "id": "inlineCta",
+      "name": "Inline CTA",
       "type": "Boolean",
       "localized": false,
       "required": false,

@@ -59,27 +59,6 @@
       "omitted": false
     },
     {
-      "id": "contents",
-      "name": "Icon List Items",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "iconList",
-            "iconListItem"
-          ],
-          "message": "Only Icon List is valid"
-        }],
-        "linkType": "Entry"
-      }
-    },
-    {
       "id": "imageWidthPercent",
       "name": "Image Width Percent",
       "type": "Integer",
@@ -142,7 +121,7 @@
     },
     {
       "id": "backgroundColor",
-      "name": "background color",
+      "name": "Background Color",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -152,13 +131,44 @@
     },
     {
       "id": "fullWidth",
-      "name": "full width",
+      "name": "Full Width",
       "type": "Boolean",
       "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
+    },
+    {
+      "id": "imageBackgroundColor",
+      "name": "Image Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "contents",
+      "name": "Icon List Items",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [{
+          "linkContentType": [
+            "iconList",
+            "iconListItem"
+          ],
+          "message": "Only Icon List is valid"
+        }],
+        "linkType": "Entry"
+      }
     },
     {
       "id": "cta",
@@ -174,16 +184,6 @@
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
-    },
-    {
-      "id": "imageBackgroundColor",
-      "name": "imageBackgroundColor",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
     },
     {
       "id": "reverseMobileView",

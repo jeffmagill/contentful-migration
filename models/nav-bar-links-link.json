@@ -2,22 +2,19 @@
   "name": "Nav Bar Links > Link",
   "description": "Individual links from the nav bar",
   "displayField": "name",
-  "fields": [
-    {
+  "fields": [{
       "id": "name",
       "name": "Name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "size": {
-            "min": 3,
-            "max": 20
-          },
-          "message": "Must be 2-20 Characters"
-        }
-      ],
+      "validations": [{
+        "size": {
+          "min": 3,
+          "max": 20
+        },
+        "message": "Must be 2-20 Characters"
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -42,13 +39,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "navBarLink"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "navBarLink"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -58,14 +53,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "left",
-            "right"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "left",
+          "right"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -85,14 +78,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Tag Tilted",
-            "Gift"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Tag Tilted",
+          "Gift"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -112,13 +103,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "navBarLinksSubNav"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "navBarLinksSubNav"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -129,13 +118,11 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "size": {
-            "max": 10
-          }
+      "validations": [{
+        "size": {
+          "max": 10
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     }

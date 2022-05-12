@@ -2,8 +2,7 @@
   "name": "Review",
   "description": "A customer review",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,15 +18,13 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "size": {
-            "min": 0,
-            "max": 12
-          },
-          "message": "Max 12 Characters"
-        }
-      ],
+      "validations": [{
+        "size": {
+          "min": 0,
+          "max": 12
+        },
+        "message": "Max 12 Characters"
+      }],
       "disabled": false,
       "omitted": false
     },

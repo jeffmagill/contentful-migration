@@ -2,8 +2,7 @@
   "name": "Comparison Table",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -48,13 +47,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "comparisonTableOption"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "comparisonTableOption"
+          ]
+        }],
         "linkType": "Entry"
       }
     },

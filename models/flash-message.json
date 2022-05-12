@@ -1,6 +1,6 @@
 {
   "name": "Flash Message",
-  "description": "",
+  "description": "Nano bar",
   "displayField": "internalName",
   "fields": [{
       "id": "internalName",
@@ -100,34 +100,27 @@
       "omitted": false
     },
     {
-      "id": "customThemeBackgroundImageDesktop",
-      "name": "Custom Theme Background Image Desktop",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "customThemeBackgroundImageMobile",
-      "name": "Custom Theme Background Image Mobile",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
       "id": "textColor",
       "name": "Text Color",
       "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "linkColor",
+      "name": "Link Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [{
+        "in": [
+          "dark",
+          "light"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     }

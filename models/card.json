@@ -2,18 +2,15 @@
   "name": "Card",
   "description": "A flexible card with many styles",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -23,14 +20,12 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "Nav Card",
-            "Product Card"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Nav Card",
+          "Product Card"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },

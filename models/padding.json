@@ -1,9 +1,8 @@
-
+{
   "name": "Padding",
   "description": "Padding between each page section. (Assume em instead of px)",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -29,14 +28,12 @@
       "type": "Number",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "max": null,
-            "min": 0
-          }
+      "validations": [{
+        "range": {
+          "max": null,
+          "min": 0
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     }

@@ -2,8 +2,7 @@
   "name": "Press",
   "description": "Press reviews",
   "displayField": "title",
-  "fields": [
-    {
+  "fields": [{
       "id": "image",
       "name": "image",
       "type": "Link",
@@ -20,11 +19,9 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },

@@ -2,18 +2,15 @@
   "name": "Nav Bar Links > Sub Nav",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -23,14 +20,12 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "size": {
-            "min": 12,
-            "max": 40
-          }
+      "validations": [{
+        "size": {
+          "min": 12,
+          "max": 40
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -40,14 +35,12 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "size": {
-            "min": 0,
-            "max": 16
-          }
+      "validations": [{
+        "size": {
+          "min": 0,
+          "max": 16
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -67,20 +60,18 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "assetImageDimensions": {
-            "width": {
-              "min": 300,
-              "max": 300
-            },
-            "height": {
-              "min": 200,
-              "max": 200
-            }
+      "validations": [{
+        "assetImageDimensions": {
+          "width": {
+            "min": 300,
+            "max": 300
+          },
+          "height": {
+            "min": 200,
+            "max": 200
           }
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
@@ -111,26 +102,22 @@
       "type": "Array",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "size": {
-            "min": 2,
-            "max": 4
-          }
+      "validations": [{
+        "size": {
+          "min": 2,
+          "max": 4
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "navBarLinksCard",
-              "card"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "navBarLinksCard",
+            "card"
+          ]
+        }],
         "linkType": "Entry"
       }
     }

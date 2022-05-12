@@ -2,8 +2,7 @@
   "name": "Payment",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -24,13 +23,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "paymentOption"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "paymentOption"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -40,13 +37,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
