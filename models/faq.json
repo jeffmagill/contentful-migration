@@ -2,8 +2,7 @@
   "name": "FAQ",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -34,13 +33,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "faqQuestionAnswer"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "faqQuestionAnswer"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -50,62 +47,14 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "faq",
-    "type": "ContentType",
-    "createdAt": "2020-02-19T19:49:41.212Z",
-    "updatedAt": "2020-03-30T15:32:41.813Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 39,
-    "publishedAt": "2020-03-30T15:32:41.813Z",
-    "firstPublishedAt": "2020-02-19T19:49:41.424Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4h5KGGxRFbaPSV8TSju8te"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "54AeWwZDzgFu8MgAiKaTJv"
-      }
-    },
-    "publishedCounter": 20,
-    "version": 40,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "54AeWwZDzgFu8MgAiKaTJv"
-      }
-    }
-  }
+  ]
 }

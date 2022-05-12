@@ -2,8 +2,7 @@
   "name": "Comparison Table > Option",
   "description": "",
   "displayField": "title",
-  "fields": [
-    {
+  "fields": [{
       "id": "title",
       "name": "Title",
       "type": "Symbol",
@@ -24,20 +23,18 @@
       "omitted": false,
       "items": {
         "type": "Symbol",
-        "validations": [
-          {
-            "in": [
-              "$",
-              "$$",
-              "$$$",
-              "$$$$",
-              "CHECKMARK",
-              "BLANK",
-              "Rarely"
-            ],
-            "message": "We only allow certain values, if you want other values, please see tech."
-          }
-        ]
+        "validations": [{
+          "in": [
+            "$",
+            "$$",
+            "$$$",
+            "$$$$",
+            "CHECKMARK",
+            "BLANK",
+            "Rarely"
+          ],
+          "message": "We only allow certain values, if you want other values, please see tech."
+        }]
       }
     },
     {
@@ -70,51 +67,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "comparisonTableOption",
-    "type": "ContentType",
-    "createdAt": "2021-04-23T18:47:07.398Z",
-    "updatedAt": "2021-05-06T20:08:18.326Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 17,
-    "publishedAt": "2021-05-06T20:08:18.326Z",
-    "firstPublishedAt": "2021-04-23T18:47:07.672Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    },
-    "publishedCounter": 9,
-    "version": 18,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    }
-  }
+  ]
 }

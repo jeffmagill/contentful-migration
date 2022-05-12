@@ -2,18 +2,15 @@
   "name": "Card",
   "description": "A flexible card with many styles",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -23,14 +20,12 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "Nav Card",
-            "Product Card"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Nav Card",
+          "Product Card"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -75,51 +70,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "card",
-    "type": "ContentType",
-    "createdAt": "2022-01-18T20:28:48.575Z",
-    "updatedAt": "2022-01-19T19:29:50.732Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 7,
-    "publishedAt": "2022-01-19T19:29:50.732Z",
-    "firstPublishedAt": "2022-01-18T20:28:48.911Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    },
-    "publishedCounter": 4,
-    "version": 8,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "58SfZ9rKkKjgzDzATCEtMO"
-      }
-    }
-  }
+  ]
 }

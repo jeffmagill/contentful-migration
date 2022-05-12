@@ -2,8 +2,7 @@
   "name": "Modal",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,11 +18,9 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -33,15 +30,13 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "all",
-            "anonymous",
-            "authenticated"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "all",
+          "anonymous",
+          "authenticated"
+        ]
+      }],
       "defaultValue": {
         "en-US": "all"
       },
@@ -90,18 +85,16 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "beat",
-              "form",
-              "iconListItem",
-              "modalLink",
-              "richTextBlock"
-            ],
-            "message": "Only types Icon List Item and Beat are valid"
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "beat",
+            "form",
+            "iconListItem",
+            "modalLink",
+            "richTextBlock"
+          ],
+          "message": "Only types Icon List Item and Beat are valid"
+        }],
         "linkType": "Entry"
       }
     },
@@ -121,14 +114,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "green",
-            "default"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "green",
+          "default"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -158,14 +149,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "button",
-            "text"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "button",
+          "text"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -179,51 +168,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "modal",
-    "type": "ContentType",
-    "createdAt": "2020-02-25T18:21:22.276Z",
-    "updatedAt": "2022-02-15T15:45:43.738Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 33,
-    "publishedAt": "2022-02-15T15:45:43.738Z",
-    "firstPublishedAt": "2020-02-25T18:21:22.476Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5RBgFr4BxbgJK5zRIzJ94c"
-      }
-    },
-    "publishedCounter": 17,
-    "version": 34,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5RBgFr4BxbgJK5zRIzJ94c"
-      }
-    }
-  }
+  ]
 }

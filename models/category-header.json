@@ -2,18 +2,15 @@
   "name": "Category Header",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -28,13 +25,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "urlLink"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "urlLink"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -55,14 +50,12 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 1,
-            "max": 100
-          }
+      "validations": [{
+        "range": {
+          "min": 1,
+          "max": 100
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -76,51 +69,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "bfhnibpd75ct"
-      }
-    },
-    "id": "categoryHeader",
-    "type": "ContentType",
-    "createdAt": "2021-02-17T15:28:47.475Z",
-    "updatedAt": "2021-02-17T15:29:25.141Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 5,
-    "publishedAt": "2021-02-17T15:29:25.141Z",
-    "firstPublishedAt": "2021-02-17T15:28:48.410Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5xe7zPmiRC6m0MGdYJHakX"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5xe7zPmiRC6m0MGdYJHakX"
-      }
-    },
-    "publishedCounter": 3,
-    "version": 6,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5xe7zPmiRC6m0MGdYJHakX"
-      }
-    }
-  }
+  ]
 }
