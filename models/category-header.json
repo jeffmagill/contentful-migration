@@ -2,8 +2,7 @@
   "name": "Category Header",
   "description": "Used top of the blog page",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -24,13 +23,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "urlLink"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "urlLink"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -51,14 +48,12 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 1,
-            "max": 100
-          }
+      "validations": [{
+        "range": {
+          "min": 1,
+          "max": 100
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },

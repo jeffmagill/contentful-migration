@@ -2,8 +2,7 @@
   "name": "Flash Message",
   "description": "Nano bar",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -39,14 +38,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -57,15 +54,13 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "success",
-            "error",
-            "custom"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "success",
+          "error",
+          "custom"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -89,14 +84,12 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 1,
-            "max": 360
-          }
+      "validations": [{
+        "range": {
+          "min": 1,
+          "max": 360
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },

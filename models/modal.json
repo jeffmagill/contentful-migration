@@ -2,8 +2,7 @@
   "name": "Modal",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -55,16 +54,14 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "iconListItem",
-              "modalLink",
-              "richTextBlock"
-            ],
-            "message": "Only types Icon List Item and Beat are valid"
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "iconListItem",
+            "modalLink",
+            "richTextBlock"
+          ],
+          "message": "Only types Icon List Item and Beat are valid"
+        }],
         "linkType": "Entry"
       }
     },

@@ -2,8 +2,7 @@
   "name": "Social Media Links",
   "description": "Put the social media links for the blog post",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
