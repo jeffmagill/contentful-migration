@@ -35,7 +35,7 @@
     },
     {
       "id": "office",
-      "name": "office",
+      "name": "Office",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,7 +45,7 @@
     },
     {
       "id": "testimonial",
-      "name": "testimonial",
+      "name": "Testimonial",
       "type": "Symbol",
       "localized": false,
       "required": true,

@@ -21,7 +21,7 @@
       "validations": [{
         "regexp": {
           "pattern": ".*NUMBER.*",
-          "flags": ""
+          "flags": null
         },
         "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
       }],

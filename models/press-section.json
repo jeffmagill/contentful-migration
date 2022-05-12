@@ -4,7 +4,7 @@
   "displayField": "title",
   "fields": [{
       "id": "press",
-      "name": "press",
+      "name": "Press",
       "type": "Array",
       "localized": false,
       "required": true,
@@ -33,7 +33,7 @@
     },
     {
       "id": "subtitle",
-      "name": "subtitle",
+      "name": "Subtitle",
       "type": "Symbol",
       "localized": false,
       "required": false,

@@ -113,9 +113,6 @@
           "Never"
         ]
       }],
-      "defaultValue": {
-        "en-US": "Desktop"
-      },
       "disabled": false,
       "omitted": false
     },
@@ -133,9 +130,6 @@
           "Never"
         ]
       }],
-      "defaultValue": {
-        "en-US": "Always"
-      },
       "disabled": false,
       "omitted": false
     },
@@ -153,9 +147,6 @@
           "Never"
         ]
       }],
-      "defaultValue": {
-        "en-US": "Always"
-      },
       "disabled": false,
       "omitted": false
     }

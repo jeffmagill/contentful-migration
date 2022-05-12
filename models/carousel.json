@@ -7,7 +7,7 @@
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -51,7 +51,6 @@
         "validations": [{
           "linkContentType": [
             "beat",
-            "navBarLinksCard",
             "card",
             "hero",
             "review",

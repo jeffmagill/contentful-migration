@@ -1,10 +1,10 @@
 {
   "name": "Press",
-  "description": "Press reviews",
+  "description": "",
   "displayField": "title",
   "fields": [{
       "id": "image",
-      "name": "image",
+      "name": "Image",
       "type": "Link",
       "localized": false,
       "required": true,
@@ -15,7 +15,7 @@
     },
     {
       "id": "title",
-      "name": "title",
+      "name": "Title",
       "type": "Symbol",
       "localized": false,
       "required": true,
@@ -27,7 +27,7 @@
     },
     {
       "id": "pressLink",
-      "name": "pressLink",
+      "name": "Press Link",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -37,7 +37,7 @@
     },
     {
       "id": "pressQuote",
-      "name": "pressQuote",
+      "name": "Press Quote",
       "type": "Symbol",
       "localized": false,
       "required": false,

@@ -1,6 +1,6 @@
 {
   "name": "Flash Message",
-  "description": "Nano bar",
+  "description": "",
   "displayField": "internalName",
   "fields": [{
       "id": "internalName",
@@ -98,6 +98,28 @@
       }],
       "disabled": false,
       "omitted": false
+    },
+    {
+      "id": "customThemeBackgroundImageDesktop",
+      "name": "Custom Theme Background Image Desktop",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "customThemeBackgroundImageMobile",
+      "name": "Custom Theme Background Image Mobile",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
     },
     {
       "id": "textColor",

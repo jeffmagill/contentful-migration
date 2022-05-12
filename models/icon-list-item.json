@@ -57,8 +57,7 @@
         "linkContentType": [
           "modalLink",
           "urlLink"
-        ],
-        "message": "Only URL Link or Modal Link is accepted."
+        ]
       }],
       "disabled": false,
       "omitted": false,

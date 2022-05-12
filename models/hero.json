@@ -136,13 +136,13 @@
     {
       "id": "mobileHeight",
       "name": "Mobile Height",
-      "type": "Number",
+      "type": "Integer",
       "localized": false,
       "required": false,
       "validations": [{
         "range": {
           "min": 0,
-          "max": 100
+          "max": 120
         }
       }],
       "disabled": false,
@@ -196,6 +196,16 @@
     {
       "id": "textColor",
       "name": "textColor",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "anchorLink",
+      "name": "anchorLink",
       "type": "Symbol",
       "localized": false,
       "required": false,

@@ -143,7 +143,7 @@
       "name": "Items",
       "type": "Array",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
@@ -153,8 +153,7 @@
           "linkContentType": [
             "bannerItem",
             "fiveStarReviewCount"
-          ],
-          "message": "Only Allow Banner Item or Five Star Review Count"
+          ]
         }],
         "linkType": "Entry"
       }

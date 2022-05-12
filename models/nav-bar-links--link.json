@@ -13,7 +13,7 @@
           "min": 3,
           "max": 20
         },
-        "message": "Must be 2-20 Characters"
+        "message": "Must be 3-20 Characters"
       }],
       "disabled": false,
       "omitted": false

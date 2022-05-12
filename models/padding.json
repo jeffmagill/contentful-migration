@@ -18,7 +18,11 @@
       "type": "Number",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [{
+        "range": {
+          "min": 0
+        }
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -30,7 +34,6 @@
       "required": false,
       "validations": [{
         "range": {
-          "max": null,
           "min": 0
         }
       }],

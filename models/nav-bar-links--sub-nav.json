@@ -8,9 +8,7 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "unique": true
-      }],
+      "validations": [],
       "disabled": false,
       "omitted": false
     },
@@ -98,7 +96,7 @@
     },
     {
       "id": "cards",
-      "name": "cards",
+      "name": "Cards",
       "type": "Array",
       "localized": false,
       "required": true,
@@ -114,7 +112,6 @@
         "type": "Link",
         "validations": [{
           "linkContentType": [
-            "navBarLinksCard",
             "card"
           ]
         }],

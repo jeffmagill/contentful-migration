@@ -15,6 +15,36 @@
       "omitted": false
     },
     {
+      "id": "storePlp",
+      "name": "Store PLP",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [{
+        "linkContentType": [
+          "productLandingPage"
+        ]
+      }],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "refillsPdp",
+      "name": "Refills PDP",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [{
+        "linkContentType": [
+          "productDisplayPage"
+        ]
+      }],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
       "id": "navBar",
       "name": "Nav Bar",
       "type": "Link",

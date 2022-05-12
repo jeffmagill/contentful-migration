@@ -7,7 +7,7 @@
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -87,13 +87,13 @@
         "type": "Link",
         "validations": [{
           "linkContentType": [
+            "banner",
             "beat",
             "form",
             "iconListItem",
             "modalLink",
             "richTextBlock"
-          ],
-          "message": "Only types Icon List Item and Beat are valid"
+          ]
         }],
         "linkType": "Entry"
       }

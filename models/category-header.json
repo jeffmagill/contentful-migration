@@ -8,9 +8,7 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "unique": true
-      }],
+      "validations": [],
       "disabled": false,
       "omitted": false
     },
