@@ -50,47 +50,6 @@
       "omitted": false
     },
     {
-      "id": "items",
-      "name": "Items",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "bannerItem",
-            "fiveStarReviewCount"
-          ],
-          "message": "Only Allow Banner Item or Five Star Review Count"
-        }],
-        "linkType": "Entry"
-      }
-    },
-    {
-      "id": "hasBadges",
-      "name": "Banner Item has Numbered Badge",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "badgeColor",
-      "name": "Badge Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
       "id": "bodyCopySize",
       "name": "Body Copy Size",
       "type": "Symbol",
@@ -173,6 +132,47 @@
       "id": "tout",
       "name": "tout",
       "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "items",
+      "name": "Items",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [{
+          "linkContentType": [
+            "bannerItem",
+            "fiveStarReviewCount"
+          ],
+          "message": "Only Allow Banner Item or Five Star Review Count"
+        }],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "hasBadges",
+      "name": "Banner Item has Numbered Badge",
+      "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "badgeColor",
+      "name": "Badge Color",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
