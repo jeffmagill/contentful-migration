@@ -146,51 +146,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "2tdscsybkbx7"
-      }
-    },
-    "id": "flashMessage",
-    "type": "ContentType",
-    "createdAt": "2020-10-08T22:22:10.354Z",
-    "updatedAt": "2022-05-12T15:39:04.732Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 7,
-    "publishedAt": "2022-05-12T15:39:04.732Z",
-    "firstPublishedAt": "2020-10-08T22:22:10.577Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "5gl2DitIryitMQdPpAabRn"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4vtFl8ZFgl9073stzaC0zi"
-      }
-    },
-    "publishedCounter": 4,
-    "version": 8,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4vtFl8ZFgl9073stzaC0zi"
-      }
-    }
-  }
+  ]
 }

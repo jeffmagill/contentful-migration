@@ -76,51 +76,5 @@
       "disabled": false,
       "omitted": false
     }
-  ],
-  "sys": {
-    "space": {
-      "sys": {
-        "type": "Link",
-        "linkType": "Space",
-        "id": "2tdscsybkbx7"
-      }
-    },
-    "id": "comparisonTable",
-    "type": "ContentType",
-    "createdAt": "2022-05-12T15:30:29.416Z",
-    "updatedAt": "2022-05-12T19:02:37.853Z",
-    "environment": {
-      "sys": {
-        "id": "master",
-        "type": "Link",
-        "linkType": "Environment"
-      }
-    },
-    "publishedVersion": 5,
-    "publishedAt": "2022-05-12T19:02:37.853Z",
-    "firstPublishedAt": "2022-05-12T15:30:29.552Z",
-    "createdBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4vtFl8ZFgl9073stzaC0zi"
-      }
-    },
-    "updatedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4vtFl8ZFgl9073stzaC0zi"
-      }
-    },
-    "publishedCounter": 3,
-    "version": 6,
-    "publishedBy": {
-      "sys": {
-        "type": "Link",
-        "linkType": "User",
-        "id": "4vtFl8ZFgl9073stzaC0zi"
-      }
-    }
-  }
+  ]
 }
