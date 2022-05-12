@@ -2,7 +2,8 @@
   "name": "Blog Page Template",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,7 +19,8 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
+      "validations": [
+        {
           "unique": true
         },
         {
@@ -43,17 +45,19 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "banner",
-            "beat",
-            "categoryHeader",
-            "flashMessage",
-            "hero",
-            "padding",
-            "richTextBlock"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "banner",
+              "beat",
+              "categoryHeader",
+              "flashMessage",
+              "hero",
+              "padding",
+              "richTextBlock"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -68,17 +72,19 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "banner",
-            "beat",
-            "carousel",
-            "faq",
-            "hero",
-            "padding",
-            "richTextBlock"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "banner",
+              "beat",
+              "carousel",
+              "faq",
+              "hero",
+              "padding",
+              "richTextBlock"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },

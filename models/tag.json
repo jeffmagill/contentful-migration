@@ -2,15 +2,18 @@
   "name": "Tag",
   "description": "Tags for content!",
   "displayField": "name",
-  "fields": [{
+  "fields": [
+    {
       "id": "name",
       "name": "name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "unique": true
-      }],
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -20,7 +23,8 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
+      "validations": [
+        {
           "unique": true
         },
         {

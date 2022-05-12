@@ -2,7 +2,8 @@
   "name": "Carousel",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -33,13 +34,15 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "hero",
-            "review",
-            "socialImage"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "hero",
+              "review",
+              "socialImage"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },

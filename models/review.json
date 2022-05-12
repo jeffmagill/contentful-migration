@@ -2,7 +2,8 @@
   "name": "Review",
   "description": "A customer review",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",

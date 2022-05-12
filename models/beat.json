@@ -2,7 +2,8 @@
   "name": "Beat",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -49,35 +50,16 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "in": [
-          "left",
-          "right"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "left",
+            "right"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "contents",
-      "name": "Icon List Items",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "iconList",
-            "iconListItem"
-          ],
-          "message": "Only Icon List is valid"
-        }],
-        "linkType": "Entry"
-      }
     },
     {
       "id": "imageWidthPercent",
@@ -85,12 +67,14 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [{
-        "range": {
-          "min": 1,
-          "max": 100
+      "validations": [
+        {
+          "range": {
+            "min": 1,
+            "max": 100
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -110,13 +94,15 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "top",
-          "center",
-          "bottom"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "top",
+            "center",
+            "bottom"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -139,6 +125,29 @@
       "validations": [],
       "disabled": false,
       "omitted": false
+    },
+    {
+      "id": "contents",
+      "name": "Icon List Items",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "iconList",
+              "iconListItem"
+            ],
+            "message": "Only Icon List is valid"
+          }
+        ],
+        "linkType": "Entry"
+      }
     }
   ]
 }

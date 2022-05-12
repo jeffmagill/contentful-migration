@@ -2,7 +2,8 @@
   "name": "Blog Post",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,12 +19,14 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "size": {
-          "min": null,
-          "max": 186
+      "validations": [
+        {
+          "size": {
+            "min": null,
+            "max": 186
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -33,11 +36,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "size": {
-          "max": 200
+      "validations": [
+        {
+          "size": {
+            "max": 200
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -47,12 +52,14 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "size": {
-          "min": null,
-          "max": 200
+      "validations": [
+        {
+          "size": {
+            "min": null,
+            "max": 200
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -62,7 +69,8 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
+      "validations": [
+        {
           "unique": true
         },
         {
@@ -81,11 +89,13 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [{
-        "linkContentType": [
-          "blogCategory"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "blogCategory"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -149,29 +159,34 @@
       "type": "RichText",
       "localized": false,
       "required": true,
-      "validations": [{
+      "validations": [
+        {
           "nodes": {
-            "embedded-entry-block": [{
-              "linkContentType": [
-                "banner",
-                "beat",
-                "carousel",
-                "categoryHeader",
-                "faq",
-                "hero",
-                "iconListItem",
-                "modalLink",
-                "padding",
-                "richTextBlock",
-                "urlLink"
-              ]
-            }],
-            "embedded-entry-inline": [{
-              "linkContentType": [
-                "modalLink",
-                "urlLink"
-              ]
-            }]
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "carousel",
+                  "categoryHeader",
+                  "faq",
+                  "hero",
+                  "iconListItem",
+                  "modalLink",
+                  "padding",
+                  "richTextBlock",
+                  "urlLink"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
+            ]
           }
         },
         {
@@ -203,28 +218,33 @@
       "type": "RichText",
       "localized": false,
       "required": false,
-      "validations": [{
+      "validations": [
+        {
           "nodes": {
-            "embedded-entry-block": [{
-              "linkContentType": [
-                "banner",
-                "beat",
-                "carousel",
-                "categoryHeader",
-                "hero",
-                "iconListItem",
-                "modalLink",
-                "padding",
-                "richTextBlock",
-                "urlLink"
-              ]
-            }],
-            "embedded-entry-inline": [{
-              "linkContentType": [
-                "modalLink",
-                "urlLink"
-              ]
-            }]
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "carousel",
+                  "categoryHeader",
+                  "hero",
+                  "iconListItem",
+                  "modalLink",
+                  "padding",
+                  "richTextBlock",
+                  "urlLink"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
+            ]
           }
         },
         {
@@ -256,20 +276,24 @@
       "type": "Array",
       "localized": false,
       "required": true,
-      "validations": [{
-        "size": {
-          "max": 3
+      "validations": [
+        {
+          "size": {
+            "max": 3
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "blogPost"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "blogPost"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -284,11 +308,13 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "tag"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "tag"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     }

@@ -1,8 +1,9 @@
 {
   "name": "Rich Text Block",
-  "description": "",
+  "description": "Block of text that can embed images and other content entries",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -17,24 +18,59 @@
       "name": "Rich Text",
       "type": "RichText",
       "localized": false,
-      "required": false,
-      "validations": [{
-        "nodes": {
-          "embedded-entry-block": [{
-            "linkContentType": [
-              "banner",
-              "beat",
-              "iconListItem"
+      "required": true,
+      "validations": [
+        {
+          "nodes": {
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "carousel",
+                  "categoryHeader",
+                  "faq",
+                  "fiveStarReviewCount",
+                  "hero",
+                  "iconListItem",
+                  "modalLink",
+                  "padding",
+                  "richTextBlock",
+                  "socialMediaLinks",
+                  "urlLink"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
             ]
-          }],
-          "embedded-entry-inline": [{
-            "linkContentType": [
-              "modalLink",
-              "urlLink"
-            ]
-          }]
+          }
+        },
+        {
+          "enabledNodeTypes": [
+            "heading-1",
+            "heading-2",
+            "heading-3",
+            "heading-4",
+            "heading-5",
+            "heading-6",
+            "ordered-list",
+            "unordered-list",
+            "hr",
+            "blockquote",
+            "embedded-entry-block",
+            "embedded-asset-block",
+            "hyperlink",
+            "embedded-entry-inline"
+          ],
+          "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, and inline entry nodes are allowed"
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -43,14 +79,16 @@
       "name": "Alignment",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [{
-        "in": [
-          "left",
-          "center",
-          "right"
-        ]
-      }],
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "center",
+            "right"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     }
