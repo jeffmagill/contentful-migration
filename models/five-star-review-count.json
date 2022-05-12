@@ -2,7 +2,8 @@
   "name": "Five Star Review Count",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,13 +19,15 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "regexp": {
-          "pattern": ".*NUMBER.*",
-          "flags": null
-        },
-        "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
-      }],
+      "validations": [
+        {
+          "regexp": {
+            "pattern": ".*NUMBER.*",
+            "flags": ""
+          },
+          "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -39,5 +42,51 @@
       "omitted": false,
       "linkType": "Asset"
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "fiveStarReviewCount",
+    "type": "ContentType",
+    "createdAt": "2020-02-26T16:30:12.368Z",
+    "updatedAt": "2020-02-26T18:50:12.299Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 7,
+    "publishedAt": "2020-02-26T18:50:12.299Z",
+    "firstPublishedAt": "2020-02-26T16:30:12.571Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    },
+    "publishedCounter": 4,
+    "version": 8,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    }
+  }
 }

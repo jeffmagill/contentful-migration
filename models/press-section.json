@@ -2,9 +2,10 @@
   "name": "Press Section",
   "description": "",
   "displayField": "title",
-  "fields": [{
+  "fields": [
+    {
       "id": "press",
-      "name": "Press",
+      "name": "press",
       "type": "Array",
       "localized": false,
       "required": true,
@@ -13,11 +14,13 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "press"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "press"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -33,7 +36,7 @@
     },
     {
       "id": "subtitle",
-      "name": "Subtitle",
+      "name": "subtitle",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -41,5 +44,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "pressSection",
+    "type": "ContentType",
+    "createdAt": "2021-02-10T17:58:08.732Z",
+    "updatedAt": "2021-02-17T19:33:34.224Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "publishedAt": "2021-02-17T19:33:34.224Z",
+    "firstPublishedAt": "2021-02-10T17:58:09.153Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "publishedCounter": 3,
+    "version": 6,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    }
+  }
 }

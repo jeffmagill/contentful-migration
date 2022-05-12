@@ -2,7 +2,8 @@
   "name": "Comparison Table",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -47,11 +48,13 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "comparisonTableOption"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "comparisonTableOption"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -76,5 +79,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "comparisonTable",
+    "type": "ContentType",
+    "createdAt": "2021-04-23T18:45:23.573Z",
+    "updatedAt": "2021-05-06T20:09:41.626Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 13,
+    "publishedAt": "2021-05-06T20:09:41.626Z",
+    "firstPublishedAt": "2021-04-23T18:45:23.870Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 7,
+    "version": 14,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    }
+  }
 }

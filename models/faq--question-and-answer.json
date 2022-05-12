@@ -2,7 +2,8 @@
   "name": "FAQ > Question & Answer",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -32,5 +33,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "faqQuestionAnswer",
+    "type": "ContentType",
+    "createdAt": "2020-02-19T19:48:16.721Z",
+    "updatedAt": "2020-03-24T15:27:42.461Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 21,
+    "publishedAt": "2020-03-24T15:27:42.460Z",
+    "firstPublishedAt": "2020-02-19T19:48:16.950Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
+      }
+    },
+    "publishedCounter": 11,
+    "version": 22,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
+      }
+    }
+  }
 }

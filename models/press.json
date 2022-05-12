@@ -1,10 +1,11 @@
 {
   "name": "Press",
-  "description": "",
+  "description": "Press reviews",
   "displayField": "title",
-  "fields": [{
+  "fields": [
+    {
       "id": "image",
-      "name": "Image",
+      "name": "image",
       "type": "Link",
       "localized": false,
       "required": true,
@@ -15,19 +16,21 @@
     },
     {
       "id": "title",
-      "name": "Title",
+      "name": "title",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "unique": true
-      }],
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
       "id": "pressLink",
-      "name": "Press Link",
+      "name": "pressLink",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -37,7 +40,7 @@
     },
     {
       "id": "pressQuote",
-      "name": "Press Quote",
+      "name": "pressQuote",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,5 +48,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "press",
+    "type": "ContentType",
+    "createdAt": "2021-02-09T16:26:13.955Z",
+    "updatedAt": "2021-02-09T16:26:15.681Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "publishedAt": "2021-02-09T16:26:15.681Z",
+    "firstPublishedAt": "2021-02-09T16:26:15.681Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    }
+  }
 }

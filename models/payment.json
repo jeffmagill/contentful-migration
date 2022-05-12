@@ -2,7 +2,8 @@
   "name": "Payment",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -23,11 +24,13 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "paymentOption"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "paymentOption"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -37,11 +40,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "urlLink"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "urlLink"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -66,5 +71,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "payment",
+    "type": "ContentType",
+    "createdAt": "2021-04-22T17:53:56.555Z",
+    "updatedAt": "2021-04-22T18:01:43.567Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "publishedAt": "2021-04-22T18:01:43.567Z",
+    "firstPublishedAt": "2021-04-22T17:53:56.806Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 3,
+    "version": 6,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    }
+  }
 }

@@ -2,7 +2,8 @@
   "name": "URL Link",
   "description": "A link that opens a URL.",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -28,12 +29,14 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkMimetypeGroup": [
-          "image"
-        ],
-        "message": "Images only!"
-      }],
+      "validations": [
+        {
+          "linkMimetypeGroup": [
+            "image"
+          ],
+          "message": "Images only!"
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
@@ -74,14 +77,16 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "text",
-          "primaryButton",
-          "secondaryButton",
-          "disabledButton"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "text",
+            "primaryButton",
+            "secondaryButton",
+            "disabledButton"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -95,5 +100,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "urlLink",
+    "type": "ContentType",
+    "createdAt": "2020-02-20T14:22:19.738Z",
+    "updatedAt": "2021-03-19T16:03:17.133Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 15,
+    "publishedAt": "2021-03-19T16:03:17.133Z",
+    "firstPublishedAt": "2020-02-20T14:22:20.097Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 8,
+    "version": 16,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    }
+  }
 }

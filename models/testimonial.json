@@ -2,7 +2,8 @@
   "name": "Testimonial",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -35,7 +36,7 @@
     },
     {
       "id": "office",
-      "name": "Office",
+      "name": "office",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,7 +46,7 @@
     },
     {
       "id": "testimonial",
-      "name": "Testimonial",
+      "name": "testimonial",
       "type": "Symbol",
       "localized": false,
       "required": true,
@@ -53,5 +54,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "testimonial",
+    "type": "ContentType",
+    "createdAt": "2020-03-30T14:40:19.874Z",
+    "updatedAt": "2020-03-30T14:40:20.075Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "publishedAt": "2020-03-30T14:40:20.075Z",
+    "firstPublishedAt": "2020-03-30T14:40:20.075Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5xe7zPmiRC6m0MGdYJHakX"
+      }
+    }
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Banner",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,14 +19,16 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "in": [
-          "left",
-          "right",
-          "top",
-          "bottom"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "left",
+            "right",
+            "top",
+            "bottom"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -55,14 +58,16 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "in": [
-          "xsmall",
-          "small",
-          "medium",
-          "large"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "xsmall",
+            "small",
+            "medium",
+            "large"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -82,13 +87,15 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "relativeToImagePosition",
-          "vertically",
-          "default"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "relativeToImagePosition",
+            "vertically",
+            "default"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -98,13 +105,15 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "default",
-          "narrow",
-          "wide"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "default",
+            "narrow",
+            "wide"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -143,18 +152,21 @@
       "name": "Items",
       "type": "Array",
       "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "bannerItem",
-            "fiveStarReviewCount"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "bannerItem",
+              "fiveStarReviewCount"
+            ],
+            "message": "Only Allow Banner Item or Five Star Review Count"
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -178,5 +190,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "banner",
+    "type": "ContentType",
+    "createdAt": "2020-02-24T17:15:46.706Z",
+    "updatedAt": "2022-05-12T19:25:07.941Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 49,
+    "publishedAt": "2022-05-12T19:25:07.941Z",
+    "firstPublishedAt": "2020-02-24T17:15:46.982Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 25,
+    "version": 50,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

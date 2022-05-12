@@ -2,7 +2,8 @@
   "name": "Beat",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -27,7 +28,7 @@
       "name": "Body Copy",
       "type": "Text",
       "localized": false,
-      "required": true,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -48,13 +49,15 @@
       "name": "Image Position",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [{
-        "in": [
-          "left",
-          "right"
-        ]
-      }],
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "right"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -64,12 +67,14 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [{
-        "range": {
-          "min": 1,
-          "max": 100
+      "validations": [
+        {
+          "range": {
+            "min": 1,
+            "max": 100
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -89,13 +94,15 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "top",
-          "center",
-          "bottom"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "top",
+            "center",
+            "bottom"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -160,11 +167,15 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "iconListItem"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "iconList",
+              "iconListItem"
+            ],
+            "message": "Only Icon List is valid"
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -174,12 +185,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "modalLink",
-          "urlLink"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "urlLink"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -194,5 +206,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "beat",
+    "type": "ContentType",
+    "createdAt": "2020-02-29T12:20:03.612Z",
+    "updatedAt": "2022-05-12T15:04:36.082Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 33,
+    "publishedAt": "2022-05-12T15:04:36.082Z",
+    "firstPublishedAt": "2020-02-29T12:20:03.780Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 17,
+    "version": 34,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

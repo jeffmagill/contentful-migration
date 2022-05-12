@@ -2,7 +2,8 @@
   "name": "Rich Text Block",
   "description": "Block of text that can embed images and other content entries",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,14 +19,36 @@
       "type": "RichText",
       "localized": false,
       "required": true,
-      "validations": [{
-          "enabledMarks": [
-            "bold",
-            "italic",
-            "underline",
-            "code"
-          ],
-          "message": "Only bold, italic, underline, and code marks are allowed"
+      "validations": [
+        {
+          "nodes": {
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "carousel",
+                  "faq",
+                  "fiveStarReviewCount",
+                  "hero",
+                  "iconListItem",
+                  "modalLink",
+                  "padding",
+                  "richTextBlock",
+                  "testimonial",
+                  "urlLink"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
+            ]
+          }
         },
         {
           "enabledNodeTypes": [
@@ -42,38 +65,9 @@
             "embedded-entry-block",
             "embedded-asset-block",
             "hyperlink",
-            "entry-hyperlink",
-            "asset-hyperlink",
             "embedded-entry-inline"
           ],
-          "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
-        },
-        {
-          "nodes": {
-            "embedded-entry-block": [{
-              "linkContentType": [
-                "banner",
-                "beat",
-                "carousel",
-                "categoryHeader",
-                "faq",
-                "fiveStarReviewCount",
-                "hero",
-                "iconListItem",
-                "modalLink",
-                "padding",
-                "richTextBlock",
-                "testimonial",
-                "urlLink"
-              ]
-            }],
-            "embedded-entry-inline": [{
-              "linkContentType": [
-                "modalLink",
-                "urlLink"
-              ]
-            }]
-          }
+          "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, and inline entry nodes are allowed"
         }
       ],
       "disabled": false,
@@ -84,14 +78,16 @@
       "name": "Alignment",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [{
-        "in": [
-          "left",
-          "center",
-          "right"
-        ]
-      }],
+      "required": true,
+      "validations": [
+        {
+          "in": [
+            "left",
+            "center",
+            "right"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -105,5 +101,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "richTextBlock",
+    "type": "ContentType",
+    "createdAt": "2020-02-21T17:52:55.080Z",
+    "updatedAt": "2021-05-20T19:38:05.012Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 35,
+    "publishedAt": "2021-05-20T19:38:05.012Z",
+    "firstPublishedAt": "2020-02-21T17:52:55.244Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "publishedCounter": 18,
+    "version": 36,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    }
+  }
 }

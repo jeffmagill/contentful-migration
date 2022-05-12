@@ -2,7 +2,8 @@
   "name": "Nav Bar Links",
   "description": "Links being shown in the nav bar",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -23,11 +24,13 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "navBarLink"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "navBarLink"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -58,13 +61,15 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "size": {
-          "min": 3,
-          "max": 20
-        },
-        "message": "3-20 Characters"
-      }],
+      "validations": [
+        {
+          "size": {
+            "min": 3,
+            "max": 20
+          },
+          "message": "3-20 Characters"
+        }
+      ],
       "defaultValue": {
         "en-US": "3-20 Characters"
       },
@@ -107,12 +112,17 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "Desktop",
-          "Never"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "Desktop",
+            "Never"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "Desktop"
+      },
       "disabled": false,
       "omitted": false
     },
@@ -122,14 +132,19 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "Always",
-          "Desktop",
-          "Mobile",
-          "Never"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "Always",
+            "Desktop",
+            "Mobile",
+            "Never"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "Always"
+      },
       "disabled": false,
       "omitted": false
     },
@@ -139,16 +154,67 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "Always",
-          "Desktop",
-          "Mobile",
-          "Never"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "Always",
+            "Desktop",
+            "Mobile",
+            "Never"
+          ]
+        }
+      ],
+      "defaultValue": {
+        "en-US": "Always"
+      },
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "navBarLinks",
+    "type": "ContentType",
+    "createdAt": "2021-03-16T14:28:17.540Z",
+    "updatedAt": "2021-11-22T23:11:07.371Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 23,
+    "publishedAt": "2021-11-22T23:11:07.371Z",
+    "firstPublishedAt": "2021-03-16T14:28:18.047Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 12,
+    "version": 24,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

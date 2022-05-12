@@ -2,7 +2,8 @@
   "name": "Social Image",
   "description": "Looks like an instagram post, right now in a review carousel.",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,12 +19,14 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "size": {
-          "min": 0,
-          "max": 12
+      "validations": [
+        {
+          "size": {
+            "min": 0,
+            "max": 12
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -59,5 +62,51 @@
       "omitted": false,
       "linkType": "Asset"
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "socialImage",
+    "type": "ContentType",
+    "createdAt": "2020-02-24T17:25:57.807Z",
+    "updatedAt": "2020-04-07T19:40:20.187Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 19,
+    "publishedAt": "2020-04-07T19:40:20.187Z",
+    "firstPublishedAt": "2020-02-24T17:25:58.953Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
+      }
+    },
+    "publishedCounter": 10,
+    "version": 20,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
+      }
+    }
+  }
 }

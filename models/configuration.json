@@ -2,47 +2,20 @@
   "name": "Configuration",
   "description": "",
   "displayField": "name",
-  "fields": [{
+  "fields": [
+    {
       "id": "name",
       "name": "Name",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "unique": true
-      }],
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
-    },
-    {
-      "id": "storePlp",
-      "name": "Store PLP",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [{
-        "linkContentType": [
-          "productLandingPage"
-        ]
-      }],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
-    },
-    {
-      "id": "refillsPdp",
-      "name": "Refills PDP",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [{
-        "linkContentType": [
-          "productDisplayPage"
-        ]
-      }],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
     },
     {
       "id": "navBar",
@@ -50,14 +23,62 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [{
-        "linkContentType": [
-          "navBarLinks"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "navBarLinks"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "configuration",
+    "type": "ContentType",
+    "createdAt": "2021-09-22T16:25:45.428Z",
+    "updatedAt": "2021-09-22T16:25:45.804Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "publishedAt": "2021-09-22T16:25:45.804Z",
+    "firstPublishedAt": "2021-09-22T16:25:45.804Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "2gBYjwDNfz4nrmpdTg6Kmf"
+      }
+    }
+  }
 }

@@ -2,7 +2,8 @@
   "name": "Review",
   "description": "A customer review",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,13 +19,15 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "size": {
-          "min": 0,
-          "max": 12
-        },
-        "message": "Max 12 Characters"
-      }],
+      "validations": [
+        {
+          "size": {
+            "min": 0,
+            "max": 12
+          },
+          "message": "Max 12 Characters"
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -59,5 +62,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "bfhnibpd75ct"
+      }
+    },
+    "id": "review",
+    "type": "ContentType",
+    "createdAt": "2020-02-21T17:46:50.150Z",
+    "updatedAt": "2020-03-24T15:15:49.064Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "publishedAt": "2020-03-24T15:15:49.064Z",
+    "firstPublishedAt": "2020-02-21T17:46:50.381Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4h5KGGxRFbaPSV8TSju8te"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
+      }
+    },
+    "publishedCounter": 3,
+    "version": 6,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "1Y9ELhGU5t9OztZurf0EGf"
+      }
+    }
+  }
 }
