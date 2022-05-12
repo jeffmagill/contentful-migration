@@ -30,6 +30,16 @@
       "omitted": false
     },
     {
+      "id": "headline",
+      "name": "Headline",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
       "id": "backgroundColor",
       "name": "Background Color",
       "type": "Symbol",
@@ -129,16 +139,6 @@
       "omitted": false
     },
     {
-      "id": "headline",
-      "name": "Headline",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
       "id": "items",
       "name": "Items",
       "type": "Array",
@@ -151,7 +151,8 @@
         "type": "Link",
         "validations": [{
           "linkContentType": [
-            "bannerItem"
+            "bannerItem",
+            "fiveStarReviewCount"
           ]
         }],
         "linkType": "Entry"
