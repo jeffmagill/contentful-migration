@@ -2,8 +2,7 @@
   "name": "Page",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,11 +18,9 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -99,24 +96,22 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "banner",
-              "beat",
-              "carousel",
-              "categoryHeader",
-              "comparisonTable",
-              "faq",
-              "flashMessage",
-              "hero",
-              "padding",
-              "richTextBlock",
-              "urlLink",
-              "variationContainer"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "banner",
+            "beat",
+            "carousel",
+            "categoryHeader",
+            "comparisonTable",
+            "faq",
+            "flashMessage",
+            "hero",
+            "padding",
+            "richTextBlock",
+            "urlLink",
+            "variationContainer"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -126,13 +121,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "flashMessage"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "flashMessage"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -143,13 +136,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "navBarLinks"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "navBarLinks"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -180,13 +171,11 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modal"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -217,14 +206,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Always",
-            "Once Per Session"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Always",
+          "Once Per Session"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     }

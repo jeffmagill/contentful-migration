@@ -2,8 +2,7 @@
   "name": "Beat",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -50,14 +49,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "left",
-            "right"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "left",
+          "right"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -67,14 +64,12 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "range": {
-            "min": 1,
-            "max": 100
-          }
+      "validations": [{
+        "range": {
+          "min": 1,
+          "max": 100
         }
-      ],
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -94,15 +89,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "top",
-            "center",
-            "bottom"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "top",
+          "center",
+          "bottom"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -167,13 +160,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "iconListItem"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "iconListItem"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -183,14 +174,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"

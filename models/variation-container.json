@@ -2,8 +2,7 @@
   "name": "Variation Container",
   "description": null,
   "displayField": "experimentTitle",
-  "fields": [
-    {
+  "fields": [{
       "id": "experimentTitle",
       "name": "Experiment title",
       "type": "Symbol",

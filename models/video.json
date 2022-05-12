@@ -2,8 +2,7 @@
   "name": "Video",
   "description": "",
   "displayField": "title",
-  "fields": [
-    {
+  "fields": [{
       "id": "video",
       "name": "Video",
       "type": "Link",

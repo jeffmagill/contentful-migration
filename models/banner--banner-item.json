@@ -2,8 +2,7 @@
   "name": "Banner > Banner Item",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -50,14 +49,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "modalLink",
+          "urlLink"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"

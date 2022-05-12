@@ -2,8 +2,7 @@
   "name": "Product",
   "description": "",
   "displayField": "displayName",
-  "fields": [
-    {
+  "fields": [{
       "id": "uuid",
       "name": "ID",
       "type": "Symbol",
@@ -40,13 +39,11 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "linkContentType": [
-            "productCategory"
-          ]
-        }
-      ],
+      "validations": [{
+        "linkContentType": [
+          "productCategory"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"

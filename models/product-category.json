@@ -2,8 +2,7 @@
   "name": "ProductCategory",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "id",
       "name": "id",
       "type": "Symbol",

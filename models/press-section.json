@@ -2,8 +2,7 @@
   "name": "Press Section",
   "description": "",
   "displayField": "title",
-  "fields": [
-    {
+  "fields": [{
       "id": "press",
       "name": "Press",
       "type": "Array",
@@ -14,13 +13,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "press"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "press"
+          ]
+        }],
         "linkType": "Entry"
       }
     },

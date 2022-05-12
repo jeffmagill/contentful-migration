@@ -2,8 +2,7 @@
   "name": "Url Link",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -70,16 +69,14 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "text",
-            "primaryButton",
-            "secondaryButton",
-            "disabledButton"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "text",
+          "primaryButton",
+          "secondaryButton",
+          "disabledButton"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },

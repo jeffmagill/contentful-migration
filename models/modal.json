@@ -2,8 +2,7 @@
   "name": "Modal",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,11 +18,9 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "unique": true
-        }
-      ],
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -33,15 +30,13 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "all",
-            "anonymous",
-            "authenticated"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "all",
+          "anonymous",
+          "authenticated"
+        ]
+      }],
       "defaultValue": {
         "en-US": "all"
       },
@@ -90,16 +85,14 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "banner",
-              "beat",
-              "form",
-              "iconListItem"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "banner",
+            "beat",
+            "form",
+            "iconListItem"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -119,14 +112,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "green",
-            "default"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "green",
+          "default"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -156,14 +147,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "button",
-            "text"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "button",
+          "text"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },

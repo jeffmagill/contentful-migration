@@ -2,8 +2,7 @@
   "name": "Banner",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,16 +18,14 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "left",
-            "right",
-            "top",
-            "bottom"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -48,16 +45,14 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "in": [
-            "xsmall",
-            "small",
-            "medium",
-            "large"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "xsmall",
+          "small",
+          "medium",
+          "large"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -77,15 +72,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "relativeToImagePosition",
-            "vertically",
-            "default"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "relativeToImagePosition",
+          "vertically",
+          "default"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -95,15 +88,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "default",
-            "narrow",
-            "wide"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "default",
+          "narrow",
+          "wide"
+        ]
+      }],
       "disabled": false,
       "omitted": false
     },
@@ -158,13 +149,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [
-          {
-            "linkContentType": [
-              "bannerItem"
-            ]
-          }
-        ],
+        "validations": [{
+          "linkContentType": [
+            "bannerItem"
+          ]
+        }],
         "linkType": "Entry"
       }
     },

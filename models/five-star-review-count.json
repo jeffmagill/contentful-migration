@@ -2,8 +2,7 @@
   "name": "Five Star Review Count",
   "description": "",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -19,15 +18,13 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [
-        {
-          "regexp": {
-            "pattern": ".*NUMBER.*",
-            "flags": null
-          },
-          "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
-        }
-      ],
+      "validations": [{
+        "regexp": {
+          "pattern": ".*NUMBER.*",
+          "flags": null
+        },
+        "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
+      }],
       "disabled": false,
       "omitted": false
     },

@@ -2,8 +2,7 @@
   "name": "Nav Bar Links",
   "description": "Links being shown in the nav bar",
   "displayField": "internalName",
-  "fields": [
-    {
+  "fields": [{
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -55,15 +54,13 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "size": {
-            "min": 3,
-            "max": 20
-          },
-          "message": "3-20 Characters"
-        }
-      ],
+      "validations": [{
+        "size": {
+          "min": 3,
+          "max": 20
+        },
+        "message": "3-20 Characters"
+      }],
       "defaultValue": {
         "en-US": "3-20 Characters"
       },
@@ -106,14 +103,12 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Desktop",
-            "Never"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Desktop",
+          "Never"
+        ]
+      }],
       "defaultValue": {
         "en-US": "Desktop"
       },
@@ -126,16 +121,14 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Always",
-            "Desktop",
-            "Mobile",
-            "Never"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Always",
+          "Desktop",
+          "Mobile",
+          "Never"
+        ]
+      }],
       "defaultValue": {
         "en-US": "Always"
       },
@@ -148,16 +141,14 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "in": [
-            "Always",
-            "Desktop",
-            "Mobile",
-            "Never"
-          ]
-        }
-      ],
+      "validations": [{
+        "in": [
+          "Always",
+          "Desktop",
+          "Mobile",
+          "Never"
+        ]
+      }],
       "defaultValue": {
         "en-US": "Always"
       },
