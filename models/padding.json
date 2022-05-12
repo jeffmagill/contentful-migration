@@ -40,5 +40,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "padding",
+    "type": "ContentType",
+    "createdAt": "2022-05-12T16:06:45.939Z",
+    "updatedAt": "2022-05-12T16:06:46.150Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "publishedAt": "2022-05-12T16:06:46.150Z",
+    "firstPublishedAt": "2022-05-12T16:06:46.150Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 1,
+    "version": 2,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

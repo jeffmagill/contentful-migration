@@ -27,7 +27,7 @@
       "name": "Question and Answers",
       "type": "Array",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
@@ -56,5 +56,51 @@
       "omitted": false,
       "linkType": "Entry"
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "faq",
+    "type": "ContentType",
+    "createdAt": "2020-07-30T19:11:54.423Z",
+    "updatedAt": "2022-05-12T17:53:53.953Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 17,
+    "publishedAt": "2022-05-12T17:53:53.953Z",
+    "firstPublishedAt": "2020-07-30T19:11:54.767Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 9,
+    "version": 18,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

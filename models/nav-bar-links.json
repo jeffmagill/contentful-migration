@@ -155,5 +155,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "navBarLinks",
+    "type": "ContentType",
+    "createdAt": "2022-05-12T15:52:34.122Z",
+    "updatedAt": "2022-05-12T19:03:11.669Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "publishedAt": "2022-05-12T19:03:11.669Z",
+    "firstPublishedAt": "2022-05-12T15:52:34.317Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 2,
+    "version": 4,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

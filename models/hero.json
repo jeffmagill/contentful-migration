@@ -1,8 +1,18 @@
 {
   "name": "Hero",
   "description": "",
-  "displayField": "headline",
+  "displayField": "internalName",
   "fields": [{
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
       "id": "applyUserVariables",
       "name": "Apply User Variables to headline and subheadline?",
       "type": "Boolean",
@@ -202,5 +212,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "hero",
+    "type": "ContentType",
+    "createdAt": "2020-08-21T14:29:17.564Z",
+    "updatedAt": "2022-05-12T15:42:11.603Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 19,
+    "publishedAt": "2022-05-12T15:42:11.603Z",
+    "firstPublishedAt": "2020-08-21T14:29:17.916Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "5gl2DitIryitMQdPpAabRn"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 10,
+    "version": 20,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

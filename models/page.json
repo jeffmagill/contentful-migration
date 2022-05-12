@@ -2,7 +2,8 @@
   "name": "Page",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,9 +19,11 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "unique": true
-      }],
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -96,22 +99,27 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "banner",
-            "beat",
-            "carousel",
-            "categoryHeader",
-            "comparisonTable",
-            "faq",
-            "flashMessage",
-            "hero",
-            "padding",
-            "richTextBlock",
-            "urlLink",
-            "variationContainer"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "banner",
+              "beat",
+              "carousel",
+              "categoryHeader",
+              "comparisonTable",
+              "faq",
+              "flashMessage",
+              "hero",
+              "padding",
+              "payment",
+              "pressSection",
+              "productReviews",
+              "richTextBlock",
+              "urlLink",
+              "variationContainer"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
     },
@@ -121,11 +129,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "flashMessage"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "flashMessage"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -136,11 +146,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "navBarLinks"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "navBarLinks"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -171,11 +183,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "modal"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "modal"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -206,14 +220,62 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "Always",
-          "Once Per Session"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "Always",
+            "Once Per Session"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "page",
+    "type": "ContentType",
+    "createdAt": "2022-05-12T16:16:12.895Z",
+    "updatedAt": "2022-05-12T18:59:55.607Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 3,
+    "publishedAt": "2022-05-12T18:59:55.607Z",
+    "firstPublishedAt": "2022-05-12T16:16:13.142Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 2,
+    "version": 4,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }

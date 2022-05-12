@@ -52,7 +52,10 @@
           "linkContentType": [
             "beat",
             "card",
-            "hero"
+            "hero",
+            "review",
+            "socialImage",
+            "testimonial"
           ]
         }],
         "linkType": "Entry"
@@ -108,5 +111,51 @@
       "disabled": false,
       "omitted": false
     }
-  ]
+  ],
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "2tdscsybkbx7"
+      }
+    },
+    "id": "carousel",
+    "type": "ContentType",
+    "createdAt": "2022-05-12T15:19:43.906Z",
+    "updatedAt": "2022-05-12T19:02:07.802Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 5,
+    "publishedAt": "2022-05-12T19:02:07.802Z",
+    "firstPublishedAt": "2022-05-12T15:19:44.098Z",
+    "createdBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "updatedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    },
+    "publishedCounter": 3,
+    "version": 6,
+    "publishedBy": {
+      "sys": {
+        "type": "Link",
+        "linkType": "User",
+        "id": "4vtFl8ZFgl9073stzaC0zi"
+      }
+    }
+  }
 }
