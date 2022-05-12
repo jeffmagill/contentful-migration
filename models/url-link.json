@@ -1,6 +1,6 @@
 {
   "name": "Url Link",
-  "description": "",
+  "description": "A link that opens a URL.",
   "displayField": "internalName",
   "fields": [{
       "id": "internalName",
@@ -28,7 +28,12 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [],
+      "validations": [{
+        "linkMimetypeGroup": [
+          "image"
+        ],
+        "message": "Images only!"
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
