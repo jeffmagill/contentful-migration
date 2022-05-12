@@ -45,6 +45,16 @@
       "omitted": false
     },
     {
+      "id": "payOnceCost",
+      "name": "Pay Once Cost",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
       "id": "payOnceSubtext",
       "name": "Pay Once Subtext",
       "type": "Symbol",

@@ -7,8 +7,10 @@
       "name": "Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [],
+      "required": true,
+      "validations": [{
+        "unique": true
+      }],
       "disabled": false,
       "omitted": false
     },

@@ -95,6 +95,7 @@
       "required": false,
       "validations": [{
         "linkContentType": [
+          "modalLink",
           "urlLink"
         ]
       }],
@@ -184,7 +185,7 @@
     },
     {
       "id": "centeredContent",
-      "name": "centeredContent",
+      "name": "Centered Content",
       "type": "Boolean",
       "localized": false,
       "required": false,

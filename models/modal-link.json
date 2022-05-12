@@ -48,7 +48,7 @@
       "name": "Modal",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [{
         "linkContentType": [
           "modal"

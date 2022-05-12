@@ -23,7 +23,11 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [],
+        "validations": [{
+          "linkContentType": [
+            "navBarLink"
+          ]
+        }],
         "linkType": "Entry"
       }
     },
@@ -98,7 +102,7 @@
       "omitted": false
     },
     {
-      "id": "showHelpMenu",
+      "id": "showHelp",
       "name": "Show Help Menu",
       "type": "Symbol",
       "localized": false,
@@ -109,14 +113,11 @@
           "Never"
         ]
       }],
-      "defaultValue": {
-        "en-US": "Desktop"
-      },
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "showAccountMenu",
+      "id": "showAccount",
       "name": "Show Account Menu",
       "type": "Symbol",
       "localized": false,
@@ -129,14 +130,11 @@
           "Never"
         ]
       }],
-      "defaultValue": {
-        "en-US": "Always"
-      },
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "showShoppingCart",
+      "id": "showCart",
       "name": "Show Shopping Cart",
       "type": "Symbol",
       "localized": false,
@@ -149,9 +147,6 @@
           "Never"
         ]
       }],
-      "defaultValue": {
-        "en-US": "Always"
-      },
       "disabled": false,
       "omitted": false
     }

@@ -159,7 +159,7 @@
       }
     },
     {
-      "id": "bannerItemHasNumberedBadge",
+      "id": "hasBadges",
       "name": "Banner Item has Numbered Badge",
       "type": "Boolean",
       "localized": false,

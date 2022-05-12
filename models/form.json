@@ -20,7 +20,8 @@
       "required": false,
       "validations": [{
         "in": [
-          "Email Capture"
+          "Email Capture",
+          "SMS Capture"
         ]
       }],
       "disabled": false,
@@ -50,8 +51,8 @@
       "validations": [{
         "in": [
           "Popup Signups",
-          "Cusp Popup SIgnups",
-          "SMS Popup Signups",
+          "Cusp Popup Signups",
+          "SMS Popup Signup List",
           "Viasat Signups"
         ]
       }],

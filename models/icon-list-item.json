@@ -38,7 +38,11 @@
       "type": "Link",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [{
+        "linkMimetypeGroup": [
+          "image"
+        ]
+      }],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"

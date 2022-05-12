@@ -98,7 +98,7 @@
       "omitted": false
     },
     {
-      "id": "subNavigation",
+      "id": "subNav",
       "name": "Sub Navigation",
       "type": "Link",
       "localized": false,

@@ -90,7 +90,9 @@
             "banner",
             "beat",
             "form",
-            "iconListItem"
+            "iconListItem",
+            "modalLink",
+            "richTextBlock"
           ]
         }],
         "linkType": "Entry"

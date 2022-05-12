@@ -17,23 +17,15 @@
       "name": "Rich Text",
       "type": "RichText",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [{
-          "nodes": {
-            "embedded-entry-block": [{
-              "linkContentType": [
-                "banner",
-                "beat",
-                "iconListItem"
-              ]
-            }],
-            "embedded-entry-inline": [{
-              "linkContentType": [
-                "modalLink",
-                "urlLink"
-              ]
-            }]
-          }
+          "enabledMarks": [
+            "bold",
+            "italic",
+            "underline",
+            "code"
+          ],
+          "message": "Only bold, italic, underline, and code marks are allowed"
         },
         {
           "enabledNodeTypes": [
@@ -57,13 +49,31 @@
           "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
         },
         {
-          "enabledMarks": [
-            "bold",
-            "italic",
-            "underline",
-            "code"
-          ],
-          "message": "Only bold, italic, underline, and code marks are allowed"
+          "nodes": {
+            "embedded-entry-block": [{
+              "linkContentType": [
+                "banner",
+                "beat",
+                "carousel",
+                "categoryHeader",
+                "faq",
+                "fiveStarReviewCount",
+                "hero",
+                "iconListItem",
+                "modalLink",
+                "padding",
+                "richTextBlock",
+                "testimonial",
+                "urlLink"
+              ]
+            }],
+            "embedded-entry-inline": [{
+              "linkContentType": [
+                "modalLink",
+                "urlLink"
+              ]
+            }]
+          }
         }
       ],
       "disabled": false,
