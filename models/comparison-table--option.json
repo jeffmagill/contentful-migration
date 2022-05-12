@@ -1,0 +1,74 @@
+{
+  "name": "Comparison Table > Option",
+  "description": "",
+  "displayField": "title",
+  "fields": [
+    {
+      "id": "title",
+      "name": "Title",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "valuePerRow",
+      "name": "Value per row",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": [
+          {
+            "in": [
+              "$",
+              "$$",
+              "$$$",
+              "$$$$",
+              "CHECKMARK",
+              "BLANK",
+              "Rarely"
+            ],
+            "message": "We only allow certain values, if you want other values, please see tech."
+          }
+        ]
+      }
+    },
+    {
+      "id": "isHighlighted",
+      "name": "Is Highlighted",
+      "type": "Boolean",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "highlightTextColor",
+      "name": "Highlight Text Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "highlightBackgroundColor",
+      "name": "Highlight Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    }
+  ]
+}

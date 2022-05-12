@@ -1,11 +1,11 @@
 {
-  "name": "Variation Container",
-  "description": null,
-  "displayField": "experimentTitle",
+  "name": "Comparison Table",
+  "description": "",
+  "displayField": "internalName",
   "fields": [
     {
-      "id": "experimentTitle",
-      "name": "Experiment title",
+      "id": "internalName",
+      "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -14,8 +14,8 @@
       "omitted": false
     },
     {
-      "id": "experimentId",
-      "name": "Experiment ID",
+      "id": "header",
+      "name": "Header",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -24,21 +24,25 @@
       "omitted": false
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "type": "Object",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "variations",
-      "name": "Variations",
+      "id": "rowNames",
+      "name": "Row Names",
       "type": "Array",
       "localized": false,
-      "required": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": []
+      }
+    },
+    {
+      "id": "comparisons",
+      "name": "Comparisons",
+      "type": "Array",
+      "localized": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
@@ -49,8 +53,19 @@
       }
     },
     {
-      "id": "experimentKey",
-      "name": "Experiment Key",
+      "id": "comparisonImage",
+      "name": "Comparison Image",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
       "type": "Symbol",
       "localized": false,
       "required": false,

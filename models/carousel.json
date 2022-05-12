@@ -1,5 +1,5 @@
 {
-  "name": "Url Link",
+  "name": "Carousel",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -8,75 +8,22 @@
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "name",
-      "name": "Link Text",
-      "type": "Symbol",
-      "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "image",
-      "name": "Link Image",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "url",
-      "name": "Target URL",
+      "id": "layout",
+      "name": "Layout",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "passOnUrlParams",
-      "name": "Pass On Url Params",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "label",
-      "name": "Link Title",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "style",
-      "name": "Link Style",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
       "validations": [
         {
           "in": [
-            "text",
-            "primaryButton",
-            "secondaryButton",
-            "disabledButton"
+            "Default",
+            "Product Overflow"
           ]
         }
       ],
@@ -84,9 +31,82 @@
       "omitted": false
     },
     {
-      "id": "disabled",
-      "name": "Disabled",
+      "id": "headline",
+      "name": "Headline",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "items",
+      "name": "Items",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "beat",
+              "card",
+              "hero"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "ctaText",
+      "name": "CTA Text",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "ctaUrl",
+      "name": "CTA URL",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "controlDotsColor",
+      "name": "Control Dots Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "fullWidth",
+      "name": "Full Width",
       "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],

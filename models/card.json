@@ -1,6 +1,6 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
+  "name": "Card",
+  "description": "A flexible card with many styles",
   "displayField": "internalName",
   "fields": [
     {
@@ -9,26 +9,37 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
+      "id": "layout",
+      "name": "Layout",
+      "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [
+        {
+          "in": [
+            "Nav Card",
+            "Product Card"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
-      "type": "Boolean",
+      "id": "url",
+      "name": "Url",
+      "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -45,22 +56,24 @@
       "linkType": "Asset"
     },
     {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
+      "id": "text",
+      "name": "Text",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "promoPill",
+      "name": "Promo Pill",
+      "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
+      "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ]
 }

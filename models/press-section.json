@@ -1,18 +1,28 @@
 {
-  "name": "Video",
+  "name": "Press Section",
   "description": "",
   "displayField": "title",
   "fields": [
     {
-      "id": "video",
-      "name": "Video",
-      "type": "Link",
+      "id": "press",
+      "name": "Press",
+      "type": "Array",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
-      "linkType": "Asset"
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": [
+              "press"
+            ]
+          }
+        ],
+        "linkType": "Entry"
+      }
     },
     {
       "id": "title",
@@ -25,15 +35,14 @@
       "omitted": false
     },
     {
-      "id": "videoThumbnail",
-      "name": "Video Thumbnail",
-      "type": "Link",
+      "id": "subtitle",
+      "name": "Subtitle",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
+      "omitted": false
     }
   ]
 }

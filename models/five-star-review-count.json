@@ -1,5 +1,5 @@
 {
-  "name": "FAQ > Question & Answer",
+  "name": "Five Star Review Count",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,24 +14,33 @@
       "omitted": false
     },
     {
-      "id": "question",
-      "name": "Question",
+      "id": "text",
+      "name": "Text",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [
+        {
+          "regexp": {
+            "pattern": ".*NUMBER.*",
+            "flags": null
+          },
+          "message": "must contain the word NUMBER (all uppercase) to denote where the # of five star reviews are in the text"
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "answer",
-      "name": "Answer",
-      "type": "Text",
+      "id": "image",
+      "name": "Image",
+      "type": "Link",
       "localized": false,
       "required": true,
       "validations": [],
       "disabled": false,
-      "omitted": false
+      "omitted": false,
+      "linkType": "Asset"
     }
   ]
 }

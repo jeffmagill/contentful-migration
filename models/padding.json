@@ -1,0 +1,49 @@
+{
+  "name": "Padding",
+  "description": "Padding between each page section. (Assume em instead of px)",
+  "displayField": "internalName",
+  "fields": [
+    {
+      "id": "internalName",
+      "name": "Internal Name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "padding",
+      "name": "Padding",
+      "type": "Number",
+      "localized": false,
+      "required": true,
+      "validations": [
+        {
+          "range": {
+            "min": 0
+          }
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "mobilePadding",
+      "name": "Mobile Padding",
+      "type": "Number",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "range": {
+            "min": 0
+          }
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    }
+  ]
+}

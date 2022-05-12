@@ -2,7 +2,8 @@
   "name": "Banner > Banner Item",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -49,12 +50,14 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "modalLink",
-          "urlLink"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "modalLink",
+            "urlLink"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -73,6 +76,26 @@
       "id": "inlineCta",
       "name": "Inline CTA",
       "type": "Boolean",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "headlineUrl",
+      "name": "Headline URL",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "headlineColor",
+      "name": "Headline Color",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],

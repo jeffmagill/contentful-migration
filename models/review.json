@@ -1,5 +1,5 @@
 {
-  "name": "Modal Link",
+  "name": "Review",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,29 +14,37 @@
       "omitted": false
     },
     {
-      "id": "linkText",
-      "name": "Link Text",
+      "id": "profileName",
+      "name": "Profile Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
-      "validations": [],
+      "required": true,
+      "validations": [
+        {
+          "size": {
+            "min": 0,
+            "max": 12
+          },
+          "message": "Max 12 Characters"
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "linkImage",
-      "name": "Link Image",
+      "id": "profilePicture",
+      "name": "Profile Picture",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
     },
     {
-      "id": "linkTitle",
-      "name": "Link Title",
+      "id": "profileTitle",
+      "name": "Profile Title",
       "type": "Symbol",
       "localized": false,
       "required": false,
@@ -45,21 +53,14 @@
       "omitted": false
     },
     {
-      "id": "modal",
-      "name": "Modal",
-      "type": "Link",
+      "id": "reviewText",
+      "name": "Review Text",
+      "type": "Text",
       "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modal"
-          ]
-        }
-      ],
+      "required": true,
+      "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
+      "omitted": false
     }
   ]
 }

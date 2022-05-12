@@ -1,6 +1,6 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
+  "name": "Payment",
+  "description": "",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,35 +14,19 @@
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
-      "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "image",
-      "name": "Image",
-      "type": "Link",
+      "id": "options",
+      "name": "Options",
+      "type": "Array",
       "localized": false,
       "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
-      "linkType": "Asset"
+      "items": {
+        "type": "Link",
+        "validations": [],
+        "linkType": "Entry"
+      }
     },
     {
       "id": "cta",
@@ -53,7 +37,6 @@
       "validations": [
         {
           "linkContentType": [
-            "modalLink",
             "urlLink"
           ]
         }
@@ -61,6 +44,26 @@
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
+    },
+    {
+      "id": "ctaSubtext",
+      "name": "CTA Subtext",
+      "type": "Text",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
     }
   ]
 }

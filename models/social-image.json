@@ -1,6 +1,6 @@
 {
-  "name": "Icon List Item",
-  "description": "List item that consists of an icon and some body copy.",
+  "name": "Social Image",
+  "description": "Looks like an instagram post, right now in a review carousel.",
   "displayField": "internalName",
   "fields": [
     {
@@ -14,19 +14,37 @@
       "omitted": false
     },
     {
-      "id": "bodyCopy",
-      "name": "Body Copy",
-      "type": "Text",
+      "id": "profileName",
+      "name": "Profile Name",
+      "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
+      "validations": [
+        {
+          "size": {
+            "min": 0,
+            "max": 12
+          }
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "alignIconWithHeader",
-      "name": "Align Icon With Header",
-      "type": "Boolean",
+      "id": "profilePicture",
+      "name": "Profile Picture",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "profileTitle",
+      "name": "Profile Title",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
@@ -43,24 +61,6 @@
       "disabled": false,
       "omitted": false,
       "linkType": "Asset"
-    },
-    {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [
-        {
-          "linkContentType": [
-            "modalLink",
-            "urlLink"
-          ]
-        }
-      ],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
     }
   ]
 }

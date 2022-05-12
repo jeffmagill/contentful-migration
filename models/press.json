@@ -1,14 +1,14 @@
 {
-  "name": "Video",
+  "name": "Press",
   "description": "",
   "displayField": "title",
   "fields": [
     {
-      "id": "video",
-      "name": "Video",
+      "id": "image",
+      "name": "Image",
       "type": "Link",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false,
@@ -20,20 +20,33 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
+      "validations": [
+        {
+          "unique": true
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "pressLink",
+      "name": "Press Link",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "videoThumbnail",
-      "name": "Video Thumbnail",
-      "type": "Link",
+      "id": "pressQuote",
+      "name": "Press Quote",
+      "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
+      "omitted": false
     }
   ]
 }

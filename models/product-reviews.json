@@ -1,8 +1,9 @@
 {
   "name": "Product Reviews",
-  "description": "",
+  "description": "Component to display all of our product reviews by category",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",

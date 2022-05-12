@@ -2,7 +2,8 @@
   "name": "FAQ",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -23,21 +24,6 @@
       "omitted": false
     },
     {
-      "id": "cta",
-      "name": "CTA",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [{
-        "linkContentType": [
-          "urlLink"
-        ]
-      }],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Entry"
-    },
-    {
       "id": "qAndAs",
       "name": "Question and Answers",
       "type": "Array",
@@ -48,13 +34,32 @@
       "omitted": false,
       "items": {
         "type": "Link",
-        "validations": [{
-          "linkContentType": [
-            "faqQuestionAnswer"
-          ]
-        }],
+        "validations": [
+          {
+            "linkContentType": [
+              "faqQuestionAnswer"
+            ]
+          }
+        ],
         "linkType": "Entry"
       }
+    },
+    {
+      "id": "cta",
+      "name": "CTA",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "linkContentType": [
+            "urlLink"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
     }
   ]
 }

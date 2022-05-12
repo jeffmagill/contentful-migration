@@ -2,7 +2,8 @@
   "name": "Configuration",
   "description": "",
   "displayField": "name",
-  "fields": [{
+  "fields": [
+    {
       "id": "name",
       "name": "Name",
       "type": "Symbol",
@@ -18,11 +19,13 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "productLandingPage"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "productLandingPage"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -33,11 +36,24 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "productDisplayPage"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "productDisplayPage"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Entry"
+    },
+    {
+      "id": "navBar",
+      "name": "Nav Bar",
+      "type": "Link",
+      "localized": false,
+      "required": true,
+      "validations": [],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"

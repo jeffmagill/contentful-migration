@@ -1,5 +1,5 @@
 {
-  "name": "Url Link",
+  "name": "Payment > Payment Option",
   "description": "",
   "displayField": "internalName",
   "fields": [
@@ -14,79 +14,83 @@
       "omitted": false
     },
     {
-      "id": "name",
-      "name": "Link Text",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "image",
-      "name": "Link Image",
-      "type": "Link",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "linkType": "Asset"
-    },
-    {
-      "id": "url",
-      "name": "Target URL",
+      "id": "title",
+      "name": "Title",
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "passOnUrlParams",
-      "name": "Pass On Url Params",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "label",
-      "name": "Link Title",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "style",
-      "name": "Link Style",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
       "validations": [
         {
-          "in": [
-            "text",
-            "primaryButton",
-            "secondaryButton",
-            "disabledButton"
-          ]
+          "unique": true
         }
       ],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "disabled",
-      "name": "Disabled",
-      "type": "Boolean",
+      "id": "subtitle",
+      "name": "Subtitle",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "payOnceLabel",
+      "name": "Pay Once Label",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "payOnceSubtext",
+      "name": "Pay Once Subtext",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "splitPayLabel",
+      "name": "Split Pay Label",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "splitPayCost",
+      "name": "Split Pay Cost",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "splitPaySubtext",
+      "name": "Split Pay Subtext",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "text",
+      "name": "Text",
+      "type": "Text",
       "localized": false,
       "required": false,
       "validations": [],

@@ -2,7 +2,8 @@
   "name": "Flash Message",
   "description": "",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -38,12 +39,14 @@
       "type": "Link",
       "localized": false,
       "required": false,
-      "validations": [{
-        "linkContentType": [
-          "modalLink",
-          "urlLink"
-        ]
-      }],
+      "validations": [
+        {
+          "linkContentType": [
+            "modalLink",
+            "urlLink"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false,
       "linkType": "Entry"
@@ -54,13 +57,15 @@
       "type": "Symbol",
       "localized": false,
       "required": true,
-      "validations": [{
-        "in": [
-          "success",
-          "error",
-          "custom"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "success",
+            "error",
+            "custom"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -75,13 +80,15 @@
       "omitted": false,
       "items": {
         "type": "Symbol",
-        "validations": [{
-          "regexp": {
-            "pattern": "^#[A-Fa-f0-9]{6}$",
-            "flags": null
-          },
-          "message": "Enter colors in hex color format #RRGGBB where R, G, and B are 0-9 or A-F"
-        }]
+        "validations": [
+          {
+            "regexp": {
+              "pattern": "^#[A-Fa-f0-9]{6}$",
+              "flags": null
+            },
+            "message": "Enter colors in hex color format #RRGGBB where R, G, and B are 0-9 or A-F"
+          }
+        ]
       }
     },
     {
@@ -90,12 +97,14 @@
       "type": "Integer",
       "localized": false,
       "required": false,
-      "validations": [{
-        "range": {
-          "min": 1,
-          "max": 360
+      "validations": [
+        {
+          "range": {
+            "min": 1,
+            "max": 360
+          }
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -128,6 +137,23 @@
       "localized": false,
       "required": false,
       "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "linkColor",
+      "name": "Link Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [
+        {
+          "in": [
+            "dark",
+            "light"
+          ]
+        }
+      ],
       "disabled": false,
       "omitted": false
     }

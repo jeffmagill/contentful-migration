@@ -1,8 +1,9 @@
 {
   "name": "Rich Text Block",
-  "description": "",
+  "description": "Block of text that can embed images and other content entries",
   "displayField": "internalName",
-  "fields": [{
+  "fields": [
+    {
       "id": "internalName",
       "name": "Internal Name",
       "type": "Symbol",
@@ -18,23 +19,59 @@
       "type": "RichText",
       "localized": false,
       "required": false,
-      "validations": [{
-        "nodes": {
-          "embedded-entry-block": [{
-            "linkContentType": [
-              "banner",
-              "beat",
-              "iconListItem"
+      "validations": [
+        {
+          "nodes": {
+            "embedded-entry-block": [
+              {
+                "linkContentType": [
+                  "banner",
+                  "beat",
+                  "iconListItem"
+                ]
+              }
+            ],
+            "embedded-entry-inline": [
+              {
+                "linkContentType": [
+                  "modalLink",
+                  "urlLink"
+                ]
+              }
             ]
-          }],
-          "embedded-entry-inline": [{
-            "linkContentType": [
-              "modalLink",
-              "urlLink"
-            ]
-          }]
+          }
+        },
+        {
+          "enabledNodeTypes": [
+            "heading-1",
+            "heading-2",
+            "heading-3",
+            "heading-4",
+            "heading-5",
+            "heading-6",
+            "ordered-list",
+            "unordered-list",
+            "hr",
+            "blockquote",
+            "embedded-entry-block",
+            "embedded-asset-block",
+            "hyperlink",
+            "entry-hyperlink",
+            "asset-hyperlink",
+            "embedded-entry-inline"
+          ],
+          "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+        },
+        {
+          "enabledMarks": [
+            "bold",
+            "italic",
+            "underline",
+            "code"
+          ],
+          "message": "Only bold, italic, underline, and code marks are allowed"
         }
-      }],
+      ],
       "disabled": false,
       "omitted": false
     },
@@ -44,13 +81,25 @@
       "type": "Symbol",
       "localized": false,
       "required": false,
-      "validations": [{
-        "in": [
-          "left",
-          "center",
-          "right"
-        ]
-      }],
+      "validations": [
+        {
+          "in": [
+            "left",
+            "center",
+            "right"
+          ]
+        }
+      ],
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "backgroundColor",
+      "name": "Background Color",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
       "disabled": false,
       "omitted": false
     }
