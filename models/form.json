@@ -1,5 +1,5 @@
 {
-  "name": "Hero",
+  "name": "Form",
   "description": "",
   "displayField": "internalName",
   "fields": [{
@@ -7,95 +7,34 @@
       "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "applyUserVariables",
-      "name": "Apply User Variables to headline and subheadline?",
-      "type": "Boolean",
-      "localized": false,
       "required": false,
       "validations": [],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "headline",
-      "name": "Headline",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "subheadline",
-      "name": "Subheadline",
-      "type": "Text",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "bgDesktopImgs",
-      "name": "Desktop Background Images",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [],
-        "linkType": "Asset"
-      }
-    },
-    {
-      "id": "bgMobileImgs",
-      "name": "Mobile Background Images",
-      "type": "Array",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false,
-      "items": {
-        "type": "Link",
-        "validations": [],
-        "linkType": "Asset"
-      }
-    },
-    {
-      "id": "mobileBackgroundPosition",
-      "name": "Mobile Background Position",
+      "id": "form",
+      "name": "Form",
       "type": "Symbol",
       "localized": false,
       "required": false,
       "validations": [{
-        "regexp": {
-          "pattern": "((left|right|center) (top|bottom|center))|\\d+% \\d+%|\\d+ \\d+",
-          "flags": null
-        }
+        "in": [
+          "Email Capture"
+        ]
       }],
       "disabled": false,
       "omitted": false
     },
     {
-      "id": "ctaButtonLink",
-      "name": "CTA Button Link",
+      "id": "onSuccessModal",
+      "name": "On Success Modal",
       "type": "Link",
       "localized": false,
       "required": false,
       "validations": [{
         "linkContentType": [
-          "urlLink"
+          "modal"
         ]
       }],
       "disabled": false,
@@ -103,112 +42,19 @@
       "linkType": "Entry"
     },
     {
-      "id": "ctaButtonColor",
-      "name": "CTA Button Color",
+      "id": "emailListName",
+      "name": "Email List Name",
       "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "backgroundColor",
-      "name": "Background Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "height",
-      "name": "Height",
-      "type": "Number",
-      "localized": false,
-      "required": true,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "mobileHeight",
-      "name": "Mobile Height",
-      "type": "Integer",
       "localized": false,
       "required": false,
       "validations": [{
-        "range": {
-          "min": 0,
-          "max": 120
-        }
+        "in": [
+          "Popup Signups",
+          "Cusp Popup SIgnups",
+          "SMS Popup Signups",
+          "Viasat Signups"
+        ]
       }],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "mobileSplitContent",
-      "name": "Split Content on Mobile",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "desktopLeft",
-      "name": "Desktop Percent Content Left",
-      "type": "Integer",
-      "localized": false,
-      "required": false,
-      "validations": [{
-        "range": {
-          "min": 0,
-          "max": 100
-        }
-      }],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "imageWatermark",
-      "name": "imageWatermark",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "centeredContent",
-      "name": "centeredContent",
-      "type": "Boolean",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "textColor",
-      "name": "textColor",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "anchorLink",
-      "name": "anchorLink",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
       "disabled": false,
       "omitted": false
     }
