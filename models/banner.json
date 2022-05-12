@@ -30,6 +30,16 @@
       "omitted": false
     },
     {
+      "id": "headline",
+      "name": "Headline",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "validations": [],
+      "disabled": false,
+      "omitted": false
+    },
+    {
       "id": "backgroundColor",
       "name": "Background Color",
       "type": "Symbol",
@@ -112,16 +122,6 @@
     {
       "id": "bottomBorderColor",
       "name": "Bottom Border Color",
-      "type": "Symbol",
-      "localized": false,
-      "required": false,
-      "validations": [],
-      "disabled": false,
-      "omitted": false
-    },
-    {
-      "id": "headline",
-      "name": "Headline",
       "type": "Symbol",
       "localized": false,
       "required": false,
