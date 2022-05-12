@@ -1,13 +1,13 @@
 {
   "name": "Category Header",
   "description": "",
-  "displayField": "internalNamwe",
+  "displayField": "internalName",
   "fields": [{
-      "id": "internalNamwe",
-      "name": "Internal Namwe",
+      "id": "internalName",
+      "name": "Internal Name",
       "type": "Symbol",
       "localized": false,
-      "required": false,
+      "required": true,
       "validations": [],
       "disabled": false,
       "omitted": false
@@ -32,7 +32,7 @@
       }
     },
     {
-      "id": "categoryImage",
+      "id": "image",
       "name": "Category Image",
       "type": "Link",
       "localized": false,
